@@ -1,0 +1,121 @@
+.generalInvite_generalInvite__08o8t {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  font-family: Tiempos Headline !important;
+  height: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  width: 100vw;
+}
+
+.generalInvite_generalInvite__right__sIsv4 {
+  display: flex;
+  height: 360px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 250px;
+}
+
+.generalInvite_generalInvite__left__F5iBf {
+  bottom: 0;
+  height: 360px;
+  left: 0;
+  position: fixed;
+  width: 250px;
+}
+
+.lazy-load-image-background.blur.lazy-load-image-loaded {
+  filter: blur(0);
+  transition: filter 0.3s;
+}
+
+.blur {
+  --tw-blur: blur(8px);
+}
+
+.lazy-load-image-background.blur.lazy-load-image-loaded > img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.generalInvite_generalInvite__body__l5a9w {
+  align-items: center;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  min-width: 330px;
+}
+
+.generalInvite_generalInvite__card__1xqEr {
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 32.42vw;
+  min-width: 330px;
+  position: relative;
+  z-index: 1;
+}
+
+.generalInvite_generalInvite__card__image__WXT1- {
+  height: auto;
+  max-height: 80vh;
+  max-width: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+
+img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+  /* display: block;
+    height: 100%; */
+  max-height: 100% !important;
+  /* max-width: 100%; */
+}
+
+.cta {
+  align-items: center;
+  /* background-color: #ffb800; orange */
+  /* background-color: #f9f0df; gold */
+  background-color: #b28ade;
+  color: #f9f0df;
+
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 46px;
+  justify-content: center;
+  padding: 0 24px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  width: 100%;
+}
+
+.cta span {
+  /* color: #000; */
+  color: #f9f0df;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.375rem;
+}

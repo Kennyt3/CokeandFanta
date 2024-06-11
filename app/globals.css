@@ -1,0 +1,343 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.STD_container {
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 32.42vw;
+  min-width: 330px;
+  position: relative;
+  z-index: 1;
+}
+
+.STD_card {
+  height: auto;
+  max-height: 80vh;
+  max-width: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+
+img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+  /* display: block;
+    height: 100%; */
+  max-height: 100% !important;
+  /* max-width: 100%; */
+}
+
+.cta {
+  align-items: center;
+  background-color: #ba9ed1;
+  text-decoration: underline;
+  color: #425c4c;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 46px;
+  justify-content: center;
+  padding: 0 24px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  width: 100%;
+}
+
+.cta span {
+  color: #ba9ed1;
+  color: #425c4c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.regForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.regForm_Input {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.regForm_Input > label {
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+.regForm_Input > div {
+  display: block;
+  background-color: #0000;
+  border: 1px solid #0000;
+  position: relative;
+  width: 100%;
+}
+.regForm_Input > div > input {
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  justify-content: space-between;
+  line-height: 22px;
+  outline: 0;
+  padding: 0.8rem 3rem 0.8rem 1rem;
+  width: 100%;
+}
+
+.bg_img > img {
+  width: 100%;
+  height: 100%;
+}
+.bg_img {
+  height: 100px;
+  position: fixed;
+}
+
+.top_right {
+  top: 0;
+  right: 0;
+}
+.top_left {
+  top: 0;
+  left: 0;
+}
+.bottom_right {
+  bottom: 0;
+  right: 0;
+}
+.bottom_left {
+  bottom: 0;
+  left: 0;
+}
+
+.STD_card span {
+  filter: blur(0);
+  transition: filter 0.3s;
+}
+
+.blur {
+  --tw-blur: blur(8px);
+}
+
+.STD_card > span > img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.gift_right h3 {
+  font-family: Tiempos Headline !important;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0 auto 0.5rem;
+  max-width: 369px;
+  text-align: center;
+}
+
+.gift_right p {
+  font-family: Tiempos Headline !important;
+  font-size: 19px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.gift_right > span {
+  display: block;
+}
+
+p {
+  display: block;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.gift_card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.gift_card {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.gift_card > div {
+  border: 1px solid #34544f;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  height: 7.5rem;
+  place-items: center;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  width: 9.4rem;
+}
+
+.gift_card-container span {
+  text-align: center;
+}
+
+.gift_link span {
+  color: #000;
+  color: initial;
+}
+
+.gift_link {
+  background: #0000 !important;
+  border: 1px solid #0000 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  width: auto;
+}
+
+.container {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  font-family: Tiempos Headline !important;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  width: 100vw;
+}
+
+/* .main_body {
+  align-items: center;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  min-width: 330px;
+} */
+
+@media only screen and (max-width: 1024px) {
+  .dubcol_container {
+    gap: 2rem;
+    max-width: 80vw;
+  }
+}
+.dubcol_container {
+  align-items: center;
+  color: #000;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  max-width: 71.4vw;
+  min-width: 330px;
+  z-index: 1;
+}
+
+.gift_left {
+  height: auto;
+  max-height: 80vh;
+  max-width: 37%;
+  position: relative;
+}
+
+.telinput {
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  justify-content: space-between;
+  line-height: 22px;
+  outline: 0;
+  padding: 0.8rem 3rem 0.8rem 1rem;
+  width: 100%;
+}
+
+.telinput > input {
+  align-items: center;
+  background-color: #fafafa;
+  border: 0px solid #f2f2f2;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  justify-content: space-between;
+  line-height: 22px;
+  outline: 0;
+  width: 100%;
+}
+
+.regForm_button {
+  align-items: center;
+  background-color: #ba9ed1;
+  color: #425c4c;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 46px;
+  justify-content: center;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0px 24px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.regForm_button > span {
+  color: #ba9ed1;
+  color: #425c4c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
