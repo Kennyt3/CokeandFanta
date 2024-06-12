@@ -5,6 +5,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .STD_container {
   align-items: center;
   color: #000;
@@ -182,6 +186,12 @@ img {
 
 .gift_right > span {
   display: block;
+  cursor: pointer;
+  font-family: Tiempos Headline !important;
+  margin-top: 50px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
 }
 
 p {

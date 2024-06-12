@@ -35,7 +35,7 @@ export default function Gift() {
           </div>
           <div className='gift_right'>
             <h3 className=''>
-              You are now a guest at <br /> Doyinsola and Emmanuel's wedding
+              You are now a guest at <br /> Dorcas and Emmanuel's wedding
             </h3>
             <p className=''>Show love to this lovely couple</p>
             <div className='gift_card-container'>
@@ -90,9 +90,9 @@ export default function Gift() {
                 </div>
               </Link>
             </div>
+            <span className=''>Skip to their wedding website.</span>
           </div>
         </div>
-        {/* <span className=''>Skip to their wedding website.</span> */}
       </div>
       <div className='bg_img bottom_right'>
         <Image
