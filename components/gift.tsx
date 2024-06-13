@@ -1,18 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Wishlist from './wishlist'
-import Cash from './cash'
+import { WishList, Cash, BottomRight, TopLeft } from './design'
 export default function Gift() {
   return (
     <div className='container'>
-      <div className='bg_img top_left'>
-        <Image
-          src='/designs/flowers2.webp'
-          width={500}
-          height={500}
-          alt='background image bottom'
-        />
-      </div>
+      <TopLeft />
       <div className='main_body'>
         <div className='dubcol_container'>
           <div className='gift_left'>
@@ -51,7 +43,7 @@ export default function Gift() {
               <button className='gift_link'>
                 <div className='gift_card'>
                   <div className=''>
-                    <Wishlist />
+                    <WishList />
                   </div>
                   <span>Tick an item off their Wishlist</span>
                 </div>
@@ -63,14 +55,7 @@ export default function Gift() {
           </div>
         </div>
       </div>
-      <div className='bg_img bottom_right'>
-        <Image
-          src='/designs/flowers2.webp'
-          width={500}
-          height={500}
-          alt='background image bottom'
-        />
-      </div>
+      <BottomRight />
     </div>
   )
 }

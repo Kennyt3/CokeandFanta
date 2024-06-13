@@ -11,5 +11,5 @@ export default function Home() {
     setShowGift(false)
   }, [])
   const { showForm, setShowForm, showGift, setShowGift } = useAppContext()
-  return <main>{showGift ? <Gift /> : showForm ? <Form /> : <Reg />}</main>
+  return <main>{!showGift ? <Gift /> : showForm ? <Form /> : <Reg />}</main>
 }
