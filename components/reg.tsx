@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useAppContext } from '../context/context'
+import { STDCard } from './design'
 export default function Reg() {
   const { showForm, setShowForm } = useAppContext()
   return (
@@ -16,22 +17,7 @@ export default function Reg() {
       <div className='main_body'>
         <div className='STD_container'>
           <div className='STD_card'>
-            <span
-              className=''
-              style={{
-                color: 'transparent',
-                display: 'inline-block',
-                height: '100%',
-                width: '100%',
-              }}
-            >
-              <img
-                src='/engagement/STD3.png'
-                alt='invitationCard'
-                width='100%'
-                height='100%'
-              />
-            </span>
+            <STDCard />
           </div>
           <button
             onClick={() => setShowForm(true)}

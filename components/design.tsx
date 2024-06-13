@@ -68,3 +68,24 @@ export const WishList = () => {
     </svg>
   )
 }
+
+export const STDCard = () => {
+  return (
+    <span
+      className='STD_card'
+      style={{
+        color: 'transparent',
+        display: 'inline-block',
+        height: '100%',
+        width: '100%',
+      }}
+    >
+      <img
+        src='/engagement/STD3.png'
+        alt='invitationCard'
+        width='100%'
+        height='100%'
+      />
+    </span>
+  )
+}

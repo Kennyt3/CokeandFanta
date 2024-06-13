@@ -4,6 +4,8 @@ import Telcode from './telcode'
 import { useEffect, useRef } from 'react'
 import { useAppContext } from '../context/context'
 import emailjs from '@emailjs/browser'
+import { STDCard } from './design'
+
 export default function Form() {
   const {
     showForm,
@@ -56,23 +58,7 @@ export default function Form() {
       <div className='main_body'>
         <div className='dubcol_container'>
           <div className='gift_left'>
-            <span
-              className='STD_card'
-              style={{
-                color: 'transparent',
-                display: 'inline-block',
-                height: '100%',
-                width: '100%',
-              }}
-            >
-              <img
-                src='/engagement/STD3.png'
-                alt='invitationCard'
-                width='100%'
-                height='100%'
-                style={{ objectFit: 'cover' }}
-              />
-            </span>
+            <STDCard />
           </div>
           <form action='' className='regForm' onSubmit={handleSubmit}>
             <div className='regForm_Input'>

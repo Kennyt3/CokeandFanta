@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+export default function Header() {
   return (
     <div className='header1'>
       <a href='/' className='logo'>
@@ -9,5 +9,3 @@ const Header = () => {
     </div>
   )
 }
-
-export default Header

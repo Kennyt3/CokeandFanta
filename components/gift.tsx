@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { STDCard } from './design'
 import { WishList, Cash, BottomRight, TopLeft } from './design'
 export default function Gift() {
   return (
@@ -8,23 +9,7 @@ export default function Gift() {
       <div className='main_body'>
         <div className='dubcol_container'>
           <div className='gift_left'>
-            <span
-              className='STD_card'
-              style={{
-                color: 'transparent',
-                display: 'inline-block',
-                height: '100%',
-                width: '100%',
-              }}
-            >
-              <img
-                src='/engagement/STD3.png'
-                alt='invitationCard'
-                width='100%'
-                height='100%'
-                style={{ objectFit: 'cover' }}
-              />
-            </span>
+            <STDCard />
           </div>
           <div className='gift_right'>
             <h3 className=''>
