@@ -6,14 +6,16 @@ import { useAppContext } from '../context/context'
 import emailjs from '@emailjs/browser'
 export default function Form() {
   const {
+    showForm,
+    setShowForm,
+    showGift,
+    setShowGift,
     firstName,
     setFirstName,
     lastName,
     setLastName,
     email,
     setEmail,
-    showForm,
-    setShowForm,
     telephone,
     setTelephone,
   } = useAppContext()
@@ -39,6 +41,7 @@ export default function Form() {
       )
     e.target.reset()
     setShowForm(false)
+    setShowGift(true)
   }
   return (
     <div className='container'>

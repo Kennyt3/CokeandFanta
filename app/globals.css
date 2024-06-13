@@ -7,6 +7,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .STD_container {
@@ -70,7 +71,6 @@ img {
 }
 
 .cta span {
-  color: #ba9ed1;
   color: #425c4c;
   font-style: normal;
   font-weight: 500;
@@ -342,7 +342,6 @@ p {
 }
 
 .regForm_button > span {
-  color: #ba9ed1;
   color: #425c4c;
   font-style: normal;
   font-weight: 500;
