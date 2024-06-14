@@ -14,7 +14,7 @@ export default function Gift() {
           </div>
           <div className='gift_right'>
             <h3 className=''>
-              You are now a guest at <br /> Dorcas and Emmanuel's wedding
+              You are now a guest at <br /> Dorcas and Emmanuel&apos;s wedding
             </h3>
             <p className=''>Show love to this lovely couple</p>
             <div className='gift_card-container'>

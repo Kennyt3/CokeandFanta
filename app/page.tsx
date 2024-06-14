@@ -22,9 +22,9 @@ export default function Home() {
     setShowGift,
   } = useAppContext()
   return (
-    <main className='main_body'>
-      {showGift ? <Gift /> : showForm ? <Form /> : <Reg />}
-      {/* <ShowCash /> */}
+    <main>
+      {!showGift ? <Gift /> : showForm ? <Form /> : <Reg />}
+      {!showCash && <ShowCash />}
     </main>
   )
 }
