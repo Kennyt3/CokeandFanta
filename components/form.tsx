@@ -104,7 +104,6 @@ export default function Form() {
             <button className='regForm_button'>
               <span className=''>Become a Guest</span>
             </button>
-            \
           </form>
         </div>
       </div>

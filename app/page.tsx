@@ -23,8 +23,8 @@ export default function Home() {
   } = useAppContext()
   return (
     <main>
-      {!showGift ? <Gift /> : showForm ? <Form /> : <Reg />}
-      {!showCash && <ShowCash />}
+      {showGift ? <Gift /> : showForm ? <Form /> : <Reg />}
+      {showCash && <ShowCash />}
     </main>
   )
 }

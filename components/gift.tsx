@@ -4,6 +4,7 @@ import { STDCard } from './design'
 import { useAppContext } from '@/context/context'
 import { WishList, Cash, BottomRight, TopLeft } from './design'
 export default function Gift() {
+  const { setShowCash, setShowWish } = useAppContext()
   return (
     <div className='container'>
       <TopLeft />
@@ -18,7 +19,7 @@ export default function Gift() {
             </h3>
             <p className=''>Show love to this lovely couple</p>
             <div className='gift_card-container'>
-              <button className='gift_link'>
+              <button className='gift_link' onClick={() => setShowCash(true)}>
                 <div className='gift_card'>
                   <div className=''>
                     <Cash />
@@ -26,7 +27,7 @@ export default function Gift() {
                   <span>Send them Cash Gifts</span>
                 </div>
               </button>
-              <button className='gift_link'>
+              <button className='gift_link' onClick={() => setShowWish(true)}>
                 <div className='gift_card'>
                   <div className=''>
                     <WishList />
