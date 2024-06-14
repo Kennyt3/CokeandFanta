@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { STDCard } from './design'
+import { useAppContext } from '@/context/context'
 import { WishList, Cash, BottomRight, TopLeft } from './design'
 export default function Gift() {
   return (

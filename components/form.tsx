@@ -67,6 +67,7 @@ export default function Form() {
                 <input
                   name='firstName'
                   type='text'
+                  required
                   placeholder='Enter First Name'
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
@@ -79,6 +80,7 @@ export default function Form() {
                 <input
                   name='lastName'
                   type='text'
+                  required
                   placeholder='Enter Last Name'
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
@@ -91,6 +93,7 @@ export default function Form() {
                 <input
                   name='email'
                   type='text'
+                  required
                   placeholder='Enter Email'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
