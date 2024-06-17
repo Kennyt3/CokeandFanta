@@ -15,9 +15,9 @@ export const wish: WishList[] = [
 export default function Wish() {
   return (
     <ul className='wish-container'>
-      {wish.map((e) => {
+      {wish.map((e, index) => {
         return (
-          <li>
+          <li key={index}>
             <div>
               <p>{e.gift}</p>
               <p>{e.price}</p>

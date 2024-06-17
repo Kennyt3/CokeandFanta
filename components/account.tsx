@@ -15,9 +15,9 @@ export const account: Account[] = [
 export default function Account() {
   return (
     <ul className='account-container'>
-      {account.map((e) => {
+      {account.map((e, index) => {
         return (
-          <li>
+          <li key={index}>
             <p>{e.name}</p>
             <p>{e.details}</p>
             <CopyButton value={e.details} />
