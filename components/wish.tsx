@@ -27,8 +27,10 @@ export default function Wish() {
               <p>{e.gift}</p>
               <p>{e.price}</p>
             </div>
-            <SendMoney />
-            {e.link.length >= 1 && <GiftLink value={e.link} />}
+            <div>
+              <SendMoney />
+              {e.link.length >= 1 && <GiftLink value={e.link} />}
+            </div>
           </li>
         )
       })}

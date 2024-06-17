@@ -36,8 +36,10 @@ export default function Gift() {
                 </div>
               </button>
             </div>
-            <span className=''>
-              <Link href='/'>Skip to their wedding website.</Link>
+            <span>
+              <Link href='/' target='_blank' className='underline'>
+                Skip to their wedding website.
+              </Link>
             </span>
           </div>
         </div>
