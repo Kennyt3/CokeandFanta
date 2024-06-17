@@ -1,16 +1,17 @@
 import { useAppContext } from '@/context/context'
 import { IoMdClose } from 'react-icons/io'
 import Account from './account'
-export default function ShowCash() {
+import Wish from './wish'
+export default function ShowWish() {
   const { setShowCash, setShowWish } = useAppContext()
   return (
     <div className='popUp'>
-      <div className='cashBox'>
-        <button className='close' onClick={() => setShowCash(false)}>
+      <div className='wishBox'>
+        <button className='close' onClick={() => setShowWish(false)}>
           <IoMdClose />
         </button>
-        <h3>Naira Account Details</h3>
-        <Account />
+        <h3>Wedding Wishlist</h3>
+        <Wish />
       </div>
     </div>
   )
