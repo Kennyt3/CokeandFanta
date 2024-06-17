@@ -1,6 +1,5 @@
 import { useAppContext } from '@/context/context'
 import { IoMdClose } from 'react-icons/io'
-import Account from './account'
 import Wish from './wish'
 export default function ShowWish() {
   const { setShowCash, setShowWish } = useAppContext()
