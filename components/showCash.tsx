@@ -9,7 +9,7 @@ export default function ShowCash() {
         <button className='close' onClick={() => setShowCash(false)}>
           <IoMdClose />
         </button>
-        <h3>Naira Account Details</h3>
+        <h3>Account Details</h3>
         <Account />
       </div>
     </div>
