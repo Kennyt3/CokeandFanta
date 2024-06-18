@@ -1,12 +1,12 @@
-'use client'
-// import type { Metadata } from 'next'
+import type { Metadata } from 'next'
 import './globals.css'
+import './reset.css'
 import AppProvider from '@/context/context'
 
-// export const metadata: Metadata = {
-//   title: 'Dorcas and Emmanuel',
-//   description: 'Wedding Website',
-// }
+export const metadata: Metadata = {
+  title: 'Dorcas and Emmanuel',
+  description: 'Wedding Website',
+}
 
 export default function RootLayout({
   children,
