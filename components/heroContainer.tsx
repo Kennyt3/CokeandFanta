@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import HeroImg from '@/public/engagement/coke5.jpg'
 export default function HeroContainer() {
   return (
     <div className='hero-container'>
       <div className='hero-image-container'>
         <span>
           <Image
-            src='/engagement/img5.jpg'
+            src={HeroImg}
             fill
             alt='couple-image'
             className='image'
