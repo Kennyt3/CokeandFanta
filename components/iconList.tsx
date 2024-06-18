@@ -3,6 +3,8 @@ import Link from 'next/link'
 import React from 'react'
 import { BsEnvelopePaperHeartFill } from 'react-icons/bs'
 import { TbNotes } from 'react-icons/tb'
+import { PiMoneyWavy } from 'react-icons/pi'
+import { TiMessages } from 'react-icons/ti'
 
 interface iconList {
   icon: React.ReactElement
@@ -16,6 +18,14 @@ export const icon: iconList[] = [
   {
     icon: <TbNotes className='icon' size={24} />,
     element: 'Wishlist',
+  },
+  {
+    icon: <PiMoneyWavy className='icon' size={24} />,
+    element: 'Cash Gift',
+  },
+  {
+    icon: <TiMessages className='icon' size={24} />,
+    element: 'Message',
   },
 ]
 export default function IconList() {
