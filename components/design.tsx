@@ -80,11 +80,11 @@ export const STDCard = () => {
         width: '100%',
       }}
     >
-      <img
+      <Image
         src='/engagement/STD3.png'
+        width={2000}
+        height={2000}
         alt='invitationCard'
-        width='100%'
-        height='100%'
       />
     </span>
   )

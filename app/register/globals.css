@@ -9,9 +9,31 @@ body {
   box-sizing: border-box;
 }
 
+main {
+  max-height: 100vh;
+}
+
 a {
   text-decoration: none;
   color: #000;
+}
+
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+
+img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  /* display: block;
+    height: 100%; */
+  max-height: 100% !important;
+  /* max-width: 100%; */
 }
 
 .STD_container {
@@ -33,24 +55,6 @@ a {
   max-width: 100%;
   overflow: auto;
   position: relative;
-}
-
-*,
-:after,
-:before {
-  border: 0 solid #e5e7eb;
-  box-sizing: border-box;
-}
-
-img {
-  border: none;
-  height: auto;
-  max-width: 100%;
-  display: block;
-  /* display: block;
-    height: 100%; */
-  max-height: 100% !important;
-  /* max-width: 100%; */
 }
 
 .cta {

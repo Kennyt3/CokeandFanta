@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "emailjs": "^4.0.3",
     "next": "14.1.4",
     "react": "^18",
@@ -21,6 +21,7 @@
     "swiper": "^11.1.4"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

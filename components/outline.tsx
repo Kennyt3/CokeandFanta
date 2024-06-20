@@ -1,7 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
+'use client'
 import React from 'react'
 import { Flower } from './design'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 export default function Outline() {
   interface outline {
@@ -32,11 +34,29 @@ export default function Outline() {
     },
   ]
 
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      mirror: true,
+      anchorPlacement: 'top-bottom',
+    }),
+      []
+  })
+
   return (
     <div className='outline'>
       <div>
         {outline.map((e, index) => (
-          <div className='outline-item' key={index}>
+          <div
+            className='outline-item'
+            key={index}
+            data-aos='slide-yo'
+            data-aos-duration='500'
+            data-aos-easing='ease-in'
+            data-aos-mirror='true'
+            data-aos-once='false'
+            data-aos-anchor-placement='top-bottom'
+          >
             <div>
               <Flower />
             </div>

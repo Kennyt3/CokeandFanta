@@ -5,7 +5,9 @@ import { BsEnvelopePaperHeartFill } from 'react-icons/bs'
 import { TbNotes } from 'react-icons/tb'
 import { PiMoneyWavy } from 'react-icons/pi'
 import { TiMessages } from 'react-icons/ti'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 interface iconList {
   icon: React.ReactElement
   element: string
@@ -29,8 +31,20 @@ export const icon: iconList[] = [
   },
 ]
 export default function IconList() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    }),
+      []
+  })
   return (
-    <div>
+    <div
+      data-aos='pop-ya'
+      data-aos-duration='1000'
+      data-aos-delay='500'
+      data-aos-easing='ease-in'
+      data-aos-once='true'
+    >
       {icon.map((e, index) => {
         return (
           <button key={index}>

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'aos/dist/aos.css';
 *,
 body {
   padding: 0;
@@ -92,9 +93,6 @@ img {
   justify-content: space-around;
   align-items: center;
   gap: 64px;
-  animation: pop-up 1.5s ease forwards;
-  animation-delay: 1s;
-  opacity: 0;
 }
 
 .floater-container > div > button {
@@ -202,11 +200,6 @@ img {
   z-index: 4;
 }
 
-.hero-text-container > div {
-  opacity: 1;
-  animation: slide-up 2s ease forwards;
-}
-
 .hero-text-container > div > h5 {
   opacity: 1;
   transform: none;
@@ -266,7 +259,6 @@ img {
   font-family: Tiempos Headline;
   font-size: 16px;
   line-height: 19px;
-  /* -webkit-border-radius: 2px; */
   margin: 0 auto;
   color: #000;
   background-color: #fff;
@@ -284,26 +276,41 @@ img {
   background: linear-gradient(180deg, transparent -37.03%, rgba(0, 0, 0, 0.62));
 }
 
-@keyframes slide-up {
-  0% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Custom AOS animation class */
+[data-aos='slide-ya'] {
+  opacity: 0;
+  transform: translateY(25%);
+  transition-property: opacity, transform;
+  transition-timing-function: ease;
 }
 
-@keyframes pop-up {
-  0% {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+[data-aos='slide-ya'].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-aos='slide-yo'] {
+  opacity: 0;
+  transform: translateY(-25%);
+  transition-property: opacity, transform;
+  transition-timing-function: ease;
+}
+
+[data-aos='slide-yo'].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos='pop-ya'] {
+  opacity: 0;
+  transform: scale(0.8);
+  transition-property: opacity, transform;
+  transition-timing-function: ease;
+  transition-duration: 2s;
+}
+
+[data-aos='pop-ya'].aos-animate {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .outline {
