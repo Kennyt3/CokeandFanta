@@ -17,6 +17,8 @@ const AppProvider = ({ children }) => {
   const [telephone, setTelephone] = useState('')
   const [showCash, setShowCash] = useState(false)
   const [showWish, setShowWish] = useState(false)
+  const [displayPage, setDisplayPage] = useState(false)
+  const [page, setPage] = useState('none')
   return (
     <AppContext.Provider
       value={{
@@ -36,6 +38,10 @@ const AppProvider = ({ children }) => {
         setShowCash,
         showWish,
         setShowWish,
+        displayPage,
+        setDisplayPage,
+        page,
+        setPage,
       }}
     >
       {children}
