@@ -6,7 +6,7 @@ import { useAppContext } from '../context/context'
 export default function Telcode() {
   const { telephone, setTelephone } = useAppContext()
   return (
-    <div>
+    <div className='w-full'>
       <PhoneInput
         international
         placeholder='Enter phone number'

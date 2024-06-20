@@ -57,7 +57,7 @@ export default function Form() {
       </div>
       <div className='main_body'>
         <div className='dubcol_container'>
-          <div className='gift_left'>
+          <div className='form_left'>
             <STDCard />
           </div>
           <form action='' className='regForm' onSubmit={handleSubmit}>
