@@ -85,6 +85,7 @@ export const STDCard = () => {
         width={2000}
         height={2000}
         alt='invitationCard'
+        className='img'
       />
     </span>
   )

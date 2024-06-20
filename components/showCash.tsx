@@ -4,13 +4,15 @@ import Account from './account'
 export default function ShowCash() {
   const { setShowCash, setShowWish } = useAppContext()
   return (
-    <div className='popUp'>
-      <div className='cashBox'>
+    <div className='open'>
+      <div>
         <button className='close' onClick={() => setShowCash(false)}>
           <IoMdClose />
         </button>
-        <h3>Account Details</h3>
-        <Account />
+        <div className='cashBox'>
+          <h3>Account Details</h3>
+          <Account />
+        </div>
       </div>
     </div>
   )

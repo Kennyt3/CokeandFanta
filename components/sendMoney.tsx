@@ -8,7 +8,7 @@ export default function SendMoney() {
         setShowWish(false)
       }}
     >
-      Send Money
+      <span>Send Money</span>
     </button>
   )
 }

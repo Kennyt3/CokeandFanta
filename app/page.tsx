@@ -7,16 +7,13 @@ import { useAppContext } from '@/context/context'
 export default function Home() {
   const { displayPage, page } = useAppContext()
   return (
-    <main>
-      {displayPage ? (
-        <DisplayPage page={page} />
-      ) : (
-        <>
-          <Header />
-          <Hero />
-          <Outline />
-        </>
-      )}
+    <main className='relative'>
+      <>
+        <Header />
+        <Hero />
+        <Outline />
+      </>
+      {displayPage && <DisplayPage page={page} />}
     </main>
   )
 }

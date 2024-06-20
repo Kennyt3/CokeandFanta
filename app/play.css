@@ -1,92 +1,58 @@
-[type='button'],
-[type='reset'],
-[type='submit'],
-button {
-  -webkit-appearance: button;
-  background-color: initial;
-  background-image: none;
-}
-[role='button'],
-button {
-  cursor: pointer;
-}
-button,
-select {
-  text-transform: none;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-feature-settings: inherit;
-  color: inherit;
-  font-family: inherit;
-  font-size: 100%;
-  font-variation-settings: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  margin: 0;
-  padding: 0;
+/* .display-invite-box > div:first-child > span {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  inset: 0px;
 }
 
-img,
-video {
-  height: auto;
-  max-width: 100%;
+.display-invite-box > div:first-child > span > .img {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
   border: none;
-  max-height: 100% !important;
-}
-
-audio,
-canvas,
-embed,
-iframe,
-img,
-object,
-svg,
-video {
+  margin: auto;
   display: block;
-  vertical-align: middle;
-}
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+} */
+.close {
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -50px;
+  right: -50px;
 
-button,
-img,
-input,
-optgroup,
-select,
-textarea {
-  outline: none;
-}
-
-button,
-select {
-  text-transform: none;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-feature-settings: inherit;
-  color: inherit;
-  font-family: inherit;
-  font-size: 100%;
-  font-variation-settings: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-audio,
-canvas,
-embed,
-iframe,
-img,
-object,
-svg,
-video {
-  display: block;
-  vertical-align: middle;
+  /* align-items: center;
+    align-self: flex-end;
+    background-color: #fff;
+    border: 1px solid #0000;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    justify-self: flex-end;
+    margin-bottom: 1rem;
+    width: 40px; */
 }

@@ -13,27 +13,35 @@ export const wish: WishList[] = [
     link: 'https://www.jumia.com.ng/bruhm-bwt-080h-8kg-washine-machine-325479378.html',
   },
   { gift: 'Refrigerator', price: 'N400,000', link: '' },
-  { gift: 'A trip to Monaco', price: 'N10,000,000', link: '' },
+  { gift: 'A trip to Monaco', price: 'N1, 000,000', link: '' },
   { gift: 'Beneficiary Name', price: '', link: '' },
 ]
 
 export default function Wish() {
   return (
-    <ul className='wish-container'>
-      {wish.map((e, index) => {
-        return (
-          <li key={index}>
-            <div>
-              <p>{e.gift}</p>
-              <p>{e.price}</p>
-            </div>
-            <div>
-              <SendMoney />
-              {e.link.length >= 1 && <GiftLink value={e.link} />}
-            </div>
-          </li>
-        )
-      })}
-    </ul>
+    <div className='wish-container'>
+      <div>
+        <ul>
+          {wish.map((e, index) => {
+            return (
+              <li key={index} className='wish-item'>
+                <div>
+                  <div>
+                    <p>{e.gift}</p>
+                    <h4>{e.price}</h4>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <SendMoney />
+                    {e.link.length >= 1 && <GiftLink value={e.link} />}
+                  </div>
+                </div>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
+    </div>
   )
 }
