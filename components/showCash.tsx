@@ -7,12 +7,9 @@ export default function ShowCash() {
     <div className='open'>
       <div>
         <button className='close' onClick={() => setShowCash(false)}>
-          <IoMdClose />
+          <IoMdClose size={25} />
         </button>
-        <div className='cashBox'>
-          <h3>Account Details</h3>
-          <Account />
-        </div>
+        <Account />
       </div>
     </div>
   )

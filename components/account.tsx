@@ -14,16 +14,23 @@ export const account: Account[] = [
 
 export default function Account() {
   return (
-    <ul className='account-container'>
-      {account.map((e, index) => {
-        return (
-          <li key={index}>
-            <p>{e.name}</p>
-            <p>{e.details}</p>
-            <CopyButton value={e.details} />
-          </li>
-        )
-      })}
-    </ul>
+    <div className='accountBox'>
+      <h3>Account Details</h3>
+      <ul className='account-container'>
+        {account.map((e, index) => {
+          return (
+            <li key={index}>
+              <div>
+                <h5>{e.name}</h5>
+              </div>
+              <div>
+                <p>{e.details}</p>
+                <CopyButton value={e.details} />
+              </div>
+            </li>
+          )
+        })}
+      </ul>
+    </div>
   )
 }

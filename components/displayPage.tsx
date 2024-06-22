@@ -11,10 +11,11 @@ export default function DisplayPage() {
     <div className='open' onClick={() => setDisplayPage(false)}>
       <div>
         <button className='close'>
-          <IoMdClose size={30} />
+          <IoMdClose size={25} />
         </button>
         {page === 'invite' && <Invitation />}
         {page === 'wishlist' && <Wish />}
+        {page === 'cash' && <Account />}
       </div>
     </div>
   )

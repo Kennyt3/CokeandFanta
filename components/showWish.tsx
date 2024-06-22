@@ -7,7 +7,7 @@ export default function ShowWish() {
     <div className='open'>
       <div>
         <button className='close' onClick={() => setShowWish(false)}>
-          <IoMdClose size={30} />
+          <IoMdClose size={25} />
         </button>
         <Wish />
       </div>
