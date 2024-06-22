@@ -438,28 +438,6 @@ img {
   text-align: center;
 }
 
-.displayOpen {
-  position: fixed;
-  inset: 0;
-  top: 0;
-  left: 0;
-  height: calc(100vh - (100vh - 100%));
-  width: 100vw;
-  width: -moz-available;
-  width: -webkit-fill-available;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2147483645;
-  overflow-y: auto;
-  gap: 0.75rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  @media only screen and (max-width: 37.5em) {
-    background-color: #fff;
-  }
-}
-
 .displayBox {
   position: fixed;
   top: 50%;

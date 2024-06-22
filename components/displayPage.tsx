@@ -8,9 +8,9 @@ import Wish from './wish'
 export default function DisplayPage() {
   const { setDisplayPage, setPage, page } = useAppContext()
   return (
-    <div className='displayOpen' onClick={() => setDisplayPage(false)}>
-      <div className='displayBox'>
-        <button className='display-box-button'>
+    <div className='open' onClick={() => setDisplayPage(false)}>
+      <div>
+        <button className='close'>
           <IoMdClose size={30} />
         </button>
         {page === 'invite' && <Invitation />}

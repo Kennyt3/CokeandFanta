@@ -3,6 +3,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import '../wish.css'
+import '../general.css'
 import AppProvider from '@/context/context'
 
 export default function RootLayout({
