@@ -399,27 +399,6 @@ p {
   font-family: Tiempos Headline !important;
 }
 
-.close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-self: flex-end;
-  align-self: flex-end;
-  height: 40px;
-  width: 40px;
-  border: 1px solid transparent;
-  border-radius: 50%;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  z-index: 2;
-  @media only screen and (max-width: 37.5em) {
-    position: absolute;
-    z-index: 1001;
-    top: 2.25rem;
-    right: 1rem;
-  }
-}
-
 .close:hover,
 .close:focus {
   color: #000;

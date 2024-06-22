@@ -456,33 +456,6 @@ img {
   }
 }
 
-.display-box-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-self: flex-end;
-  align-self: flex-end;
-  height: 40px;
-  width: 40px;
-  border: 1px solid transparent; /*0000 for wishlist*/
-  border-radius: 50%;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  z-index: 2;
-  @media only screen and (max-width: 37.5em) {
-    position: absolute;
-    z-index: 1001;
-    top: 2.25rem; /*.75 .75 top and right for wishlist*/
-    right: 1rem;
-  }
-  @media only screen and (max-width: 48em) {
-    position: absolute;
-    z-index: 1001;
-    top: 2rem;
-    right: 1rem;
-  }
-}
-
 .display-invite-box {
   background-color: #fff;
   height: auto;
