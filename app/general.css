@@ -76,3 +76,39 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.container {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  font-family: Tiempos Headline !important;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dubcol_container {
+    gap: 2rem;
+    max-width: 80vw;
+  }
+}
+.dubcol_container {
+  align-items: center;
+  color: #000;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  max-width: 71.4vw;
+  min-width: 330px;
+  z-index: 1;
+}
+
+.gift_left {
+  height: auto;
+  max-height: 80vh;
+  max-width: 37%;
+  position: relative;
+}

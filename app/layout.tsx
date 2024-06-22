@@ -3,6 +3,7 @@ import './globals.css'
 import './reset.css'
 import './wish.css'
 import './account.css'
+import './form.css'
 import './general.css'
 import AppProvider from '@/context/context'
 

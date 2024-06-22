@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { STDCard } from './design'
 import Invitation from './invitation'
 import Wish from './wish'
+import Form from './form'
 export default function DisplayPage() {
   const { setDisplayPage, setPage, page } = useAppContext()
   return (
@@ -16,6 +17,7 @@ export default function DisplayPage() {
         {page === 'invite' && <Invitation />}
         {page === 'wishlist' && <Wish />}
         {page === 'cash' && <Account />}
+        {/* {page === 'message' && <Form />} */}
       </div>
     </div>
   )

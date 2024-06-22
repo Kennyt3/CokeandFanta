@@ -1,6 +1,6 @@
 'use client'
 import Reg from '@/components/reg'
-import Form from '@/components/form'
+import Form from '@/components/register'
 import Gift from '@/components/gift'
 import { useAppContext } from '@/context/context'
 import ShowCash from '@/components/showCash'
