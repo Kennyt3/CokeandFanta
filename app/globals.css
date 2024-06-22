@@ -267,7 +267,7 @@ img {
   grid-column-gap: 10px;
 }
 
-.hero-button-container > div > button {
+.hero-button-container > div > a {
   border: 1px solid transparent !important;
   border-radius: 0 !important;
   padding: 0 !important;
@@ -276,7 +276,7 @@ img {
   cursor: pointer;
   text-transform: none;
 }
-.hero-button-container > div > button > span {
+.hero-button-container > div > a > span {
   display: flex;
   flex-direction: row;
   justify-content: center;

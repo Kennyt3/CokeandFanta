@@ -39,9 +39,9 @@ export default function HeroContainer() {
           <p>#cokeandfanta</p>
           <div className='hero-button-container'>
             <div>
-              <button>
+              <Link href='/register' target='_blank'>
                 <span>RSVP</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
