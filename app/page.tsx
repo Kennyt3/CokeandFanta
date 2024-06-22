@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         <Outline />
       </>
-      {displayPage && <DisplayPage page={page} />}
+      {displayPage && <DisplayPage />}
     </main>
   )
 }

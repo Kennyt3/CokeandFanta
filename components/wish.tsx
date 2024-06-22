@@ -19,28 +19,33 @@ export const wish: WishList[] = [
 
 export default function Wish() {
   return (
-    <div className='wish-container'>
-      <div>
-        <ul>
-          {wish.map((e, index) => {
-            return (
-              <li key={index} className='wish-item'>
-                <div>
-                  <div>
-                    <p>{e.gift}</p>
-                    <h4>{e.price}</h4>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <SendMoney />
-                    {e.link.length >= 1 && <GiftLink value={e.link} />}
-                  </div>
-                </div>
-              </li>
-            )
-          })}
-        </ul>
+    <div className='wishBox'>
+      <h3>Wedding Wishlist</h3>
+      <div className=''>
+        <div className='wish-container'>
+          <div>
+            <ul>
+              {wish.map((e, index) => {
+                return (
+                  <li key={index} className='wish-item'>
+                    <div>
+                      <div>
+                        <p>{e.gift}</p>
+                        <h4>{e.price}</h4>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <SendMoney />
+                        {e.link.length >= 1 && <GiftLink value={e.link} />}
+                      </div>
+                    </div>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   )

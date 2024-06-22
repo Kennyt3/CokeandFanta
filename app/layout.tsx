@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import './reset.css'
+import './wish.css'
 import AppProvider from '@/context/context'
 
 export const metadata: Metadata = {

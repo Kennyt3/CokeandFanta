@@ -9,12 +9,7 @@ export default function ShowWish() {
         <button className='close' onClick={() => setShowWish(false)}>
           <IoMdClose size={30} />
         </button>
-        <div className='wishBox'>
-          <h3>Wedding Wishlist</h3>
-          <div className=''>
-            <Wish />
-          </div>
-        </div>
+        <Wish />
       </div>
     </div>
   )

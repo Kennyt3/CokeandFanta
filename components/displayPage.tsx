@@ -3,20 +3,18 @@ import Account from './account'
 import { useAppContext } from '@/context/context'
 import Image from 'next/image'
 import { STDCard } from './design'
-export default function DisplayPage(page: any) {
-  const { setDisplayPage, setPage } = useAppContext()
+import Invitation from './invitation'
+import Wish from './wish'
+export default function DisplayPage() {
+  const { setDisplayPage, setPage, page } = useAppContext()
   return (
     <div className='displayOpen' onClick={() => setDisplayPage(false)}>
       <div className='displayBox'>
-        <button>
+        <button className='display-box-button'>
           <IoMdClose size={30} />
         </button>
-        <div className='display-invite-box'>
-          <div>
-            <STDCard />
-          </div>
-          <div></div>
-        </div>
+        {page === 'invite' && <Invitation />}
+        {page === 'wishlist' && <Wish />}
       </div>
     </div>
   )
