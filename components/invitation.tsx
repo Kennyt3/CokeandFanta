@@ -13,12 +13,12 @@ export default function Invitation(page: any) {
       <div className='display-invite-options'>
         <div>
           <button>
-            <div>I'm coming</div>
+            <div>I&apos;m coming</div>
           </button>
         </div>
         <div>
           <button>
-            <div>I'm not coming</div>
+            <div>I&apos;m not coming</div>
           </button>
         </div>
       </div>
