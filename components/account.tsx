@@ -6,10 +6,10 @@ interface Account {
   details: string
 }
 export const account: Account[] = [
-  { name: 'Account Number', details: '0248004968' },
-  { name: 'Bank Name', details: 'GTBank' },
+  { name: 'Account Number', details: '0711336519' },
+  { name: 'Bank Name', details: 'Access Bank' },
   { name: 'Currency', details: 'Naira' },
-  { name: 'Beneficiary Name', details: 'Taiwo Mercy' },
+  { name: 'Beneficiary Name', details: 'Omoyajowo Doyinsola' },
 ]
 
 export default function Account() {
