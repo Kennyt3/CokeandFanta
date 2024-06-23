@@ -188,7 +188,7 @@ img {
   padding: 0px;
   border: none;
   margin: auto;
-  display: block;
+  /* display: block; */
   width: 0px;
   height: 0px;
   min-width: 100%;
@@ -200,7 +200,7 @@ img {
   background-image: none;
   background-position: 0% 0%;
   object-fit: cover !important;
-  /* vertical-align: middle; */
+  vertical-align: middle;
   outline: none;
 }
 

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import HeroImg from '@/public/engagement/coke5.jpg'
+import HeroImg from '@/public/engagement/coke4.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
