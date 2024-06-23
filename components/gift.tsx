@@ -2,13 +2,18 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { STDCard } from './design'
 import { useAppContext } from '@/context/context'
+import BgImg from '@/public/engagement/coke4.jpg'
 import { WishList, Cash, BottomRight, TopLeft } from './design'
 export default function Gift() {
   const { setShowCash, setShowWish } = useAppContext()
   return (
-    <div className='container'>
-      <TopLeft />
-      <div className='main_body'>
+    <div className='bg-container form'>
+      <div className='bg-image-container'>
+        <span>
+          <Image src={BgImg} fill alt='couple-image' className='image'></Image>
+        </span>
+      </div>
+      <div className='bg-form-container'>
         <div className='dubcol_container'>
           <div className='gift_left'>
             <STDCard />
@@ -44,7 +49,7 @@ export default function Gift() {
           </div>
         </div>
       </div>
-      <BottomRight />
+      <div className='shadow'></div>
     </div>
   )
 }

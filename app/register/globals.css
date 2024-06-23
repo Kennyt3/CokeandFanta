@@ -141,6 +141,11 @@ img {
   transition: opacity 0.3s;
 }
 
+.gift_right {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
 .gift_right h3 {
   font-family: Tiempos Headline !important;
   font-size: 32px;

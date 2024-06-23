@@ -28,6 +28,7 @@ export default function Reg() {
           </button>
         </div>
       </div>
+      <div className='shadow'></div>
     </div>
   )
 }

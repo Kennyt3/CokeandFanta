@@ -22,6 +22,7 @@ export default function Register() {
           <Form />
         </div>
       </div>
+      <div className='shadow'></div>
     </div>
   )
 }

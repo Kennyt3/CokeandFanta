@@ -105,10 +105,3 @@
   min-width: 330px;
   z-index: 1;
 }
-
-.gift_left {
-  height: auto;
-  max-height: 80vh;
-  max-width: 37%;
-  position: relative;
-}

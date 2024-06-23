@@ -75,9 +75,8 @@ export const STDCard = () => {
       className='STD_card'
       style={{
         color: 'transparent',
-        display: 'inline-block',
-        height: '100%',
-        width: '100%',
+        // height: '100%',
+        // width: '100%',
       }}
     >
       <Image
