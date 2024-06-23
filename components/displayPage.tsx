@@ -17,7 +17,7 @@ export default function DisplayPage() {
         {page === 'invite' && <Invitation />}
         {page === 'wishlist' && <Wish />}
         {page === 'cash' && <Account />}
-        {/* {page === 'message' && <Form />} */}
+        {page === 'message' && <Form />}
       </div>
     </div>
   )
