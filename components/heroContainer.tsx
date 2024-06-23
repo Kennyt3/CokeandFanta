@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import HeroImg from '@/public/engagement/coke4.jpg'
+import BgImg from '@/public/engagement/coke4.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -14,19 +14,14 @@ export default function HeroContainer() {
       []
   })
   return (
-    <div className='hero-container'>
-      <div className='hero-image-container'>
+    <div className='bg-container'>
+      <div className='bg-image-container'>
         <span>
-          <Image
-            src={HeroImg}
-            fill
-            alt='couple-image'
-            className='image'
-          ></Image>
+          <Image src={BgImg} fill alt='couple-image' className='image'></Image>
         </span>
       </div>
       <div
-        className='hero-text-container'
+        className='bg-text-container'
         data-aos='slide-ya'
         data-aos-duration='1000'
         data-aos-easing='ease-in'
@@ -37,7 +32,7 @@ export default function HeroContainer() {
         <div>
           <h5>Dorcas Weds Emmanuel</h5>
           <p>#cokeandfanta</p>
-          <div className='hero-button-container'>
+          <div className='bg-button-container'>
             <div>
               <Link href='/register' target='_blank'>
                 <span>RSVP</span>
