@@ -1,5 +1,7 @@
 .wishBox {
-  background: linear-gradient(to bottom, #ba9ed1, #e8dff0);
+  background: linear-gradient(to top right, #ba9ed1, #e8dff0);
+  color: #000;
+  border: 2px solid #fff;
   height: auto;
   width: 551px;
   display: flex;
@@ -63,16 +65,16 @@
 }
 
 .wish-container > div::-webkit-scrollbar-track {
-  background: #fafafa; /* Color of the track */
+  background: #ba9ed1; /* Color of the scrollbar thumb on hover */
 }
 
 .wish-container > div::-webkit-scrollbar-thumb {
-  background: #e8dff0; /* Color of the scrollbar thumb */
+  background: #fafafa; /* Color of the track */
   border-radius: 4px; /* Rounded corners of the thumb */
 }
 
 .wish-container > div::-webkit-scrollbar-thumb:hover {
-  background: #ba9ed1; /* Color of the scrollbar thumb on hover */
+  background: #e8dff0; /* Color of the scrollbar thumb */
 }
 
 .wish-item {

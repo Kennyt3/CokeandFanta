@@ -160,9 +160,10 @@
   font-size: 18px;
   line-height: 19px;
   margin: 0 auto;
-  background: #ba9ed1;
-  color: #fff;
-  border: 2px solid #e8dff0;
+  background: linear-gradient(to top right, #ba9ed1, #e8dff0);
+  /* background:  */
+  color: #000;
+  border: 2px solid #fff;
   text-transform: uppercase;
   width: fit-content;
 }
