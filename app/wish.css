@@ -1,5 +1,5 @@
 .wishBox {
-  background-color: #fff;
+  background: linear-gradient(to bottom, #ba9ed1, #e8dff0);
   height: auto;
   width: 551px;
   display: flex;

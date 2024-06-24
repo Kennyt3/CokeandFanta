@@ -11,26 +11,31 @@ export default function Outline() {
     date: string
     time: string
     venue: string
+    delay: number
   }
 
   const outline: outline[] = [
     {
-      title: 'Our Introduction',
+      title: 'Our Engagement',
       date: 'Sat Sep 14 2024',
-      time: '08:00 AM',
-      venue: 'Assigned engagement venue',
+      time: '12:00 PM',
+      venue: '7, Aromire Street, Harmony Estate, Itoki, Ogun State.',
+      delay: 200,
     },
     {
-      title: 'Our Introduction',
-      date: 'Sat Sep 14 2024',
-      time: '08:00 AM',
-      venue: 'Assigned engagement venue',
+      title: 'Our Wedding',
+      date: 'Thur Sep 19 2024',
+      time: '11:00 AM',
+      venue: 'RCCG, City of God Zone. 34, Aromire Ave, Ikeja, Lagos.',
+      delay: 250,
     },
     {
-      title: 'Our Introduction',
-      date: 'Sat Sep 14 2024',
+      title: 'Our Reception',
+      date: 'Thur Sep 19 2024',
       time: '08:00 AM',
-      venue: 'Assigned engagement venue',
+      venue:
+        ' LUXURY PARTY EVENT CENTRE Block G, plot A2 M.K.O Abiola Gardens Road, beside Addonai Court, lkeja.',
+      delay: 300,
     },
   ]
 
@@ -50,6 +55,7 @@ export default function Outline() {
           <div
             className='outline-item'
             key={index}
+            data-aos-delay={e.delay}
             data-aos='slide-yo'
             data-aos-duration='500'
             data-aos-easing='ease-in'
@@ -63,7 +69,7 @@ export default function Outline() {
             <h3>{e.title}</h3>
             <p>{e.date}</p>
             <p>{e.time}</p>
-            <span>{e.venue}</span>
+            <span className='max-w-[200px]'>{e.venue}</span>
           </div>
         ))}
       </div>

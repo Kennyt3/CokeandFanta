@@ -1,4 +1,5 @@
 .accountBox {
+  background: linear-gradient(to bottom, #ba9ed1, #e8dff0);
   background-color: #fff;
   border-radius: 5px;
   display: flex;
