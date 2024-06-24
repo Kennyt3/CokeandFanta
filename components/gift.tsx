@@ -37,7 +37,7 @@ export default function Gift() {
                   <div className=''>
                     <WishList />
                   </div>
-                  <span>Tick an item off their Wishlist</span>
+                  <span>Tick their Wishlist</span>
                 </div>
               </button>
             </div>

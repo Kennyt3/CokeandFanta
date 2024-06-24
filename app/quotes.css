@@ -1,0 +1,40 @@
+.quoteBox {
+  min-height: 36rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top right, #ba9ed1, #e8dff0);
+  color: #000;
+  /* border: 2px solid #fff; */
+  box-shadow: inset 0 24px 84px rgba(255, 246, 224, 0.25);
+  position: relative;
+}
+
+.quoteBox > div {
+  height: 100%;
+  width: 100%;
+  grid-template-rows: repeat(1, auto);
+  grid-row-gap: 80px;
+  display: grid;
+  place-items: center;
+}
+
+.quote-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text-box > p {
+  font-weight: 400;
+  font-size: 38.8024px;
+  line-height: 70px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+}
+.wine-glass {
+}

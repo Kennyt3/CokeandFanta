@@ -31,7 +31,7 @@ export default function HeroContainer() {
       >
         <div>
           <h5>Dorcas Weds Emmanuel</h5>
-          <p>#cokeandfanta</p>
+          <p>#fantaXcoke</p>
           <div className='bg-button-container'>
             <div>
               <Link href='/register' target='_blank'>

@@ -18,7 +18,7 @@ export default function Outline() {
     {
       title: 'Our Engagement',
       date: 'Sat Sep 14 2024',
-      time: '12:00 PM',
+      time: '11:00 PM',
       venue: '7, Aromire Street, Harmony Estate, Itoki, Ogun State.',
       delay: 200,
     },
@@ -27,15 +27,15 @@ export default function Outline() {
       date: 'Thur Sep 19 2024',
       time: '11:00 AM',
       venue: 'RCCG, City of God Zone. 34, Aromire Ave, Ikeja, Lagos.',
-      delay: 250,
+      delay: 350,
     },
     {
       title: 'Our Reception',
       date: 'Thur Sep 19 2024',
-      time: '08:00 AM',
+      time: '12:00 PM',
       venue:
         ' LUXURY PARTY EVENT CENTRE Block G, plot A2 M.K.O Abiola Gardens Road, beside Addonai Court, lkeja.',
-      delay: 300,
+      delay: 500,
     },
   ]
 

@@ -89,6 +89,12 @@
   top: 0;
   left: 0;
   z-index: 4;
+  @media only screen and (max-width: 900px) {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .bg-text-container > div > h5 {
@@ -161,7 +167,6 @@
   line-height: 19px;
   margin: 0 auto;
   background: linear-gradient(to top right, #ba9ed1, #e8dff0);
-  /* background:  */
   color: #000;
   border: 2px solid #fff;
   text-transform: uppercase;
