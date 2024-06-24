@@ -32,7 +32,7 @@ export default function Outline() {
     {
       title: 'Our Reception',
       date: 'Thur Sep 19 2024',
-      time: '12:00 PM',
+      time: '1:00 PM',
       venue:
         ' LUXURY PARTY EVENT CENTRE Block G, plot A2 M.K.O Abiola Gardens Road, beside Addonai Court, lkeja.',
       delay: 500,

@@ -8,6 +8,7 @@ import './bg.css'
 import './story.css'
 import './quotes.css'
 import './general.css'
+import './styles.css'
 import AppProvider from '@/context/context'
 
 export const metadata: Metadata = {

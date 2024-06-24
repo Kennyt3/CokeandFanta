@@ -14,8 +14,8 @@ export default function Home() {
         <Header />
         <Hero />
         <Outline />
-        {/* <Quotes /> */}
-        {/* <Story /> */}
+        <Quotes />
+        <Story />
       </>
       {displayPage && <DisplayPage />}
     </main>

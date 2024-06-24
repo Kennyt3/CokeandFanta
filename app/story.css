@@ -1,36 +1,16 @@
 .storyBox {
   width: 100%;
-  background: #f4fdfd;
+  background: #e8dff0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: relative;
+  @media only screen and (max-width: 37.5em) {
+    min-height: auto;
+    background-color: #e8dff0;
+    box-shadow: inset 0 24px 84px rgba(255, 246, 224, 0.25);
+  }
 }
-
-/* .storyBox > div:first-child {
-  cursor: grab;
-  transition-duration: 0ms;
-  transform: translateZ(0);
-  transform-style: preserve-3d;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  display: flex;
-  transition-property: transform;
-  box-sizing: content-box;
-}
-
-.storyBox div:last-child {
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  transition: opacity 0.3s;
-  transform: translateZ(0);
-  z-index: 10;
-} */
 
 .story-container {
   display: flex;
@@ -38,7 +18,7 @@
   padding: 8rem 0;
   width: 100%;
   height: 100%;
-  background: #f4fdfd;
+  background: #e8dff0;
 }
 .story-container > div:first-child {
   display: flex;
@@ -53,12 +33,22 @@
   grid-template-columns: auto 450px;
   grid-column-gap: 65px;
   place-items: center;
+  @media only screen and (max-width: 56.25em) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    margin: 0 20px;
+    grid-row-gap: 40px;
+  }
 }
 
 .columnBox > div:first-child {
   height: 450px;
   position: relative;
   width: 270px;
+  @media only screen and (max-width: 56.25em) {
+    width: 154px;
+    height: 154px;
+  }
 }
 .columnBox > div:first-child > span {
   box-sizing: border-box;
@@ -125,6 +115,13 @@
   height: 340px;
   overflow: hidden;
   text-overflow: ellipsis;
+  @media only screen and (max-width: 56.25em) {
+    height: 245px;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    /* line-clamp: 9; */
+    -webkit-box-orient: vertical;
+  }
 }
 
 .columnBox > div:last-child > button {
@@ -137,8 +134,11 @@
 }
 
 .columnBox > div:last-child > button > div {
-  color: #eead06 !important;
+  color: #ba9ed1 !important;
   font-weight: 500 !important;
   font-size: 1rem !important;
   -webkit-transition: all 0.3s ease-out;
+  .backstory_home__knowthecouple--container-deck__view-more__6skog {
+    margin: 0.75rem 0;
+  }
 }

@@ -16,12 +16,12 @@ export default function Quotes() {
       <div>
         <div
           className='quote-text-box'
-          data-aos='slide-ya'
-          data-aos-duration='1000'
-          data-aos-easing='ease-in'
-          data-aos-mirror='true'
-          data-aos-once='false'
-          data-aos-anchor-placement='top-center'
+          // data-aos='slide-ya'
+          // data-aos-duration='1000'
+          // data-aos-easing='ease-in'
+          // data-aos-mirror='true'
+          // data-aos-once='false'
+          // data-aos-anchor-placement='top-center'
         >
           <div>
             <PiCheersThin size={40} />
