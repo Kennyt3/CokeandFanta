@@ -15,7 +15,7 @@ export default function Register() {
     useAppContext()
   return (
     <main>
-      {!showGift ? <Gift /> : showForm ? <Form /> : <Reg />}
+      {showGift ? <Gift /> : showForm ? <Form /> : <Reg />}
       {showCash && <ShowCash />}
       {showWish && <ShowWish />}
     </main>

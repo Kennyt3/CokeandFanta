@@ -1,0 +1,85 @@
+.message {
+  background-color: #fff;
+  height: auto;
+  width: 551px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 40px;
+  @media only screen and (max-width: 37.5em) {
+    padding: 48px 32px;
+    max-height: auto;
+    height: calc(100vh - (100vh - 100%));
+    width: -webkit-fill-available;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    z-index: 1000;
+  }
+}
+
+.message > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 40px;
+}
+
+.message > div > h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.message > form > div {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-row-gap: 0.5rem;
+}
+
+.message > form > div > textarea {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0.8rem 3rem 0.8rem 1.5rem;
+  border: 1px solid #f2f2f2;
+  background-color: #fafafa;
+  width: 100%;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  user-select: text;
+  resize: none;
+}
+
+.message > form > div > p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  font-style: normal;
+}
+
+.message > form > div > span {
+  display: block;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  color: #e61919;
+}

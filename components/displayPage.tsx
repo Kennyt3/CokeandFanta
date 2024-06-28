@@ -6,18 +6,39 @@ import { STDCard } from './design'
 import Invitation from './invitation'
 import Wish from './wish'
 import Form from './form'
+import Tale from './tale'
+import Message from './message'
 export default function DisplayPage() {
-  const { setDisplayPage, setPage, page } = useAppContext()
+  const {
+    setDisplayPage,
+    setPage,
+    page,
+    showMoreG,
+    showMoreS,
+    setShowMoreB,
+    setShowMoreG,
+    setShowMoreS,
+  } = useAppContext()
   return (
-    <div className='open' onClick={() => setDisplayPage(false)}>
+    <div className='open'>
       <div>
-        <button className='close'>
+        <button
+          className='close'
+          onClick={() => {
+            setDisplayPage(false)
+            setShowMoreG(false)
+            setShowMoreB(false)
+            setShowMoreS(false)
+            setPage('none')
+          }}
+        >
           <IoMdClose size={25} />
         </button>
         {page === 'invite' && <Invitation />}
         {page === 'wishlist' && <Wish />}
         {page === 'cash' && <Account />}
-        {page === 'message' && <Form />}
+        {page === 'message' && <Message />}
+        {showMoreS ? <Tale /> : ''}
       </div>
     </div>
   )

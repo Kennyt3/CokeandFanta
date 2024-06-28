@@ -390,7 +390,7 @@ img {
   }
 }
 
-.display-invite-options > div > button {
+.display-invite-options > div > a {
   padding: 12px 32px;
   display: flex;
   flex-direction: row;
@@ -403,11 +403,11 @@ img {
   -webkit-transition: all 0.3s ease-out;
 }
 
-.display-invite-options > div:first-child > button {
+.display-invite-options > div:first-child > a {
   background: #ba9ed1;
   border: 1px solid #e8dff0;
 }
-.display-invite-options > div:last-child > button {
+.display-invite-options > div:last-child > a {
   background: #e8dff0;
   border: 1px solid #ba9ed1;
 }
