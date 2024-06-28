@@ -15,12 +15,7 @@ export default function Message() {
     e.preventDefault()
 
     emailjs
-      .send(
-        'template_9pyt3fn',
-        'message_form',
-        { message },
-        'oJDi6VCsC3ODt00Ul'
-      )
+      .send('service_6hro5uf', 'message_form', { message }, 'oJDi6VCsC3ODt00Ul')
       .then(
         (result: any) => {
           console.log(result.text)

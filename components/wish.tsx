@@ -8,6 +8,11 @@ interface WishList {
 }
 export const wish: WishList[] = [
   {
+    gift: 'Silver Crest 6.5 Litres Capacity Airfryer',
+    price: 'N55,000',
+    link: 'https://www.jumia.com.ng/silver-crest-6.5-litres-capacity-airfryer-92849858.html',
+  },
+  {
     gift: 'Washing Machine',
     price: 'N700,000',
     link: 'https://www.jumia.com.ng/bruhm-bwt-080h-8kg-washine-machine-325479378.html',
