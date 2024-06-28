@@ -38,6 +38,7 @@ export default function Message() {
             placeholder='Type your message here'
             name=''
             id=''
+            required
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
@@ -46,7 +47,7 @@ export default function Message() {
         </div>
         <div>
           <div>
-            <button className='message-button'>
+            <button className='regForm_button'>
               <span>Send Message</span>
             </button>
           </div>

@@ -26,8 +26,8 @@ export default function Quotes() {
           <div>
             <PiCheersThin size={40} />
           </div>
-          <p>Keep their cheesy two liners</p>
-          <p>within these text boxes</p>
+          <p>Let's tango our way into forever,</p>
+          <p>like two intertwined souls dancing under the stars</p>
         </div>
       </div>
     </div>

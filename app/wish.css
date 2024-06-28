@@ -99,7 +99,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  align-items: start;
   border-radius: 4px;
   flex-basis: 60%;
   color: #000;
@@ -174,4 +173,8 @@
 
 .wish-item > button:hover {
   color: white;
+}
+.wish-item > div:last-child > div > div {
+  flex: 1;
+  margin: 0 10px;
 }

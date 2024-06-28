@@ -65,8 +65,9 @@
 
 .regForm_button {
   align-items: center;
-  background-color: #ba9ed1;
-  color: #425c4c;
+  background: #e8dff0;
+  color: #000;
+  border: 2px solid #ba9ed1;
   cursor: pointer;
   display: flex;
   flex-direction: row;
@@ -77,16 +78,19 @@
   padding: 0px 24px;
   transition: all 0.3s ease-out 0s;
 }
-
-.regForm_button > span {
+.regForm_button:hover {
+  background-color: #ba9ed1;
   color: #425c4c;
+}
+.regForm_button > span {
+  color: #000;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 2rem;
-  text-decoration: underline;
   text-transform: uppercase;
 }
+
 .telinput {
   align-items: center;
   background-color: #fafafa;

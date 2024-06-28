@@ -412,6 +412,14 @@ img {
   background: #e8dff0;
   border: 1px solid #ba9ed1;
 }
+.display-invite-options > div:first-child > a:hover {
+  background: #e8dff0;
+  border: 1px solid #ba9ed1;
+}
+.display-invite-options > div:last-child > a:hover {
+  background: #ba9ed1;
+  border: 1px solid #e8dff0;
+}
 
 .display-invite-options > div > button > div {
   color: #000;

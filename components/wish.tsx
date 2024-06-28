@@ -13,6 +13,11 @@ export const wish: WishList[] = [
     link: 'https://www.jumia.com.ng/silver-crest-6.5-litres-capacity-airfryer-92849858.html',
   },
   {
+    gift: 'Silver Crest 2 Litres German Industrial Blender (SC-2030D)',
+    price: 'N45,000',
+    link: 'https://www.jumia.com.ng/silver-crest-2-litres-german-industrial-blender-sc-2030d-72172768.html',
+  },
+  {
     gift: 'Washing Machine',
     price: 'N700,000',
     link: 'https://www.jumia.com.ng/bruhm-bwt-080h-8kg-washine-machine-325479378.html',

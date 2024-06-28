@@ -71,9 +71,9 @@ img {
 
 .cta {
   align-items: center;
-  background-color: #ba9ed1;
-  text-decoration: underline;
-  color: #425c4c;
+  background: #e8dff0;
+  color: #000;
+  border: 2px solid #ba9ed1;
   border-radius: 8px;
   cursor: pointer;
   display: flex;
@@ -88,9 +88,12 @@ img {
   -o-transition: all 0.3s ease-out;
   width: 100%;
 }
+.cta:hover {
+  background-color: #ba9ed1;
+}
 
-.cta span {
-  color: #425c4c;
+.cta > span {
+  color: #000;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
