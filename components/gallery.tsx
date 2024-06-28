@@ -71,23 +71,8 @@ export default function PicGallery() {
     },
     {
       src: '/engagement/coke6.jpg',
-      width: 4,
-      height: 3,
-    },
-    {
-      src: '/engagement/coke6.jpg',
-      width: 4,
-      height: 3,
-    },
-    {
-      src: '/engagement/coke6.jpg',
-      width: 4,
-      height: 3,
-    },
-    {
-      src: '/engagement/coke6.jpg',
-      width: 4,
-      height: 3,
+      width: 1,
+      height: 1,
     },
   ]
   return <Gallery photos={photos} />
