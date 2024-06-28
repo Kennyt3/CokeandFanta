@@ -7,5 +7,18 @@ import emailjs from '@emailjs/browser'
 import { STDCard } from './design'
 
 export default function Marquee() {
-  return <div></div>
+  return (
+    <div>
+      <div className='marquee-container'>
+        <div>
+          <div className='marquee'>
+            <div dir='rtl' className='rtl'></div>
+            <div dir='rtl' className='rtl'></div>
+            <div dir='rtl' className='rtl'></div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  )
 }

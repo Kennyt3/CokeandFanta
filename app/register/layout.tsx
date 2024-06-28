@@ -2,11 +2,11 @@
 
 import type { Metadata } from 'next'
 import './globals.css'
-import '../wish.css'
-import '../account.css'
-import '../form.css'
-import '../bg.css'
-import '../general.css'
+import '../styles/wish.css'
+import '../styles/account.css'
+import '../styles/form.css'
+import '../styles/bg.css'
+import '../styles/general.css'
 import AppProvider from '@/context/context'
 
 export default function RootLayout({
