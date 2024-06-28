@@ -15,7 +15,12 @@ export default function Message() {
     e.preventDefault()
 
     emailjs
-      .send('service_qgo4bdj', 'wedding_form', { message }, 'cRQmou1HpEeCnEv5T')
+      .send(
+        'template_9pyt3fn',
+        'message_form',
+        { message },
+        'oJDi6VCsC3ODt00Ul'
+      )
       .then(
         (result: any) => {
           console.log(result.text)

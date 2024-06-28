@@ -13,8 +13,9 @@
 }
 
 .gift_right {
-  background: linear-gradient(to top right, #ba9ed1, #e8dff0);
-  color: #000;
+  /* background: linear-gradient(to top right, #ba9ed1, #e8dff0);
+  color: #000; */
+  background-color: white;
   padding: 0.5rem;
   border-radius: 5px;
 }

@@ -9,9 +9,10 @@
 }
 
 .regForm {
-  background: linear-gradient(to top right, #ba9ed1, #e8dff0);
+  /* background: linear-gradient(to top right, #ba9ed1, #e8dff0);
   color: #000;
-  border: 2px solid #fff;
+  border: 2px solid #fff; */
+  background-color: white;
   align-items: center;
   display: flex;
   flex-direction: column;
