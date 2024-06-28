@@ -12,6 +12,7 @@ import './styles/styles.css'
 import './styles/tale.css'
 import './styles/marquee.css'
 import './styles/message.css'
+import './styles/gallery.css'
 import AppProvider from '@/context/context'
 
 export const metadata: Metadata = {

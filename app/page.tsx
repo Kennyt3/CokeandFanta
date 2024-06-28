@@ -6,6 +6,8 @@ import Hero from '@/components/hero'
 import Outline from '@/components/outline'
 import Story from '@/components/story'
 import { useAppContext } from '@/context/context'
+import Marquee from '@/components/marquee'
+import PicGallery from '@/components/gallery'
 export default function Home() {
   const { displayPage, page } = useAppContext()
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <Outline />
         <Quotes />
         <Story />
+        <Marquee />
+        <PicGallery />
       </>
       {displayPage && <DisplayPage />}
     </main>

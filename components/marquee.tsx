@@ -12,12 +12,26 @@ export default function Marquee() {
       <div className='marquee-container'>
         <div>
           <div className='marquee'>
-            <div dir='rtl' className='rtl'></div>
-            <div dir='rtl' className='rtl'></div>
-            <div dir='rtl' className='rtl'></div>
+            <div dir='rtl' className='rtl'>
+              <div className='marquee-box'>
+                <div></div>
+                <p>Congratulations</p>
+              </div>
+            </div>
+            <div dir='rtl' className='rtl'>
+              <div className='marquee-box'>
+                <div></div>
+                <p>Congratulations</p>
+              </div>
+            </div>
+            <div dir='rtl' className='rtl'>
+              <div className='marquee-box'>
+                <div></div>
+                <p>Congratulations</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   )
