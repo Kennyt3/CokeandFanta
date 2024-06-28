@@ -60,7 +60,7 @@ export default function Story() {
                   </div>
                   <div className=''>
                     <p>{e.title}</p>
-                    <article>{e.article}</article>
+                    {/* <article>{e.article}</article> */}
                     <button
                       onClick={() => {
                         setDisplayPage(true)

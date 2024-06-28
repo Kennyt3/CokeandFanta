@@ -229,9 +229,13 @@ p {
   padding: 0 !important;
   width: auto;
 }
+
 .gift_left {
   height: auto;
   max-height: 80vh;
   max-width: 37%;
   position: relative;
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 }
