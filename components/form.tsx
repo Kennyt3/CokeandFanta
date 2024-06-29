@@ -28,7 +28,7 @@ export default function Form() {
     console.log(firstName, lastName)
 
     const response = await fetch(
-      'https://script.google.com/macros/s/AKfycby4mFkq4S0CibuNzNaImwR7cH85g3cVcMEWI35V4rDpsHOcMOu7jmU1FSR81OQ5cDRo/exec',
+      'https://script.google.com/macros/s/AKfycbzFY8eoQX-23zH-7yidUfJtzyWkOOtFEw6kqNhimKv7Bjmy0jv-oIgJt_6FHyz6cJyK/exec',
       {
         method: 'POST',
         headers: {

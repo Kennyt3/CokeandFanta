@@ -1,6 +1,8 @@
+'use client'
+
+import { useEffect } from 'react'
 import { Gallery } from 'react-grid-gallery'
-import Link from 'next/link'
-export default function PicGallery() {
+export default function Photos() {
   const photos = [
     {
       src: '/engagement/coke3.jpg',
@@ -29,15 +31,8 @@ export default function PicGallery() {
     },
   ]
   return (
-    <div>
+    <main>
       <Gallery images={photos} rowHeight={700} />
-      <div className='gallery-button'>
-        <Link href='/photos' target='_blank'>
-          <button className='gallery_button'>
-            <span>View Photobook</span>
-          </button>
-        </Link>
-      </div>
-    </div>
+    </main>
   )
 }
