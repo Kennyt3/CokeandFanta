@@ -22,9 +22,9 @@ export default function Marquee() {
           <div className='marquee'>
             <div dir='rtl' className='rtl'>
               {message.map((e, index) => (
-                <div className='marquee-box'>
+                <div className='marquee-box' key={index}>
                   <div>
-                    <AiOutlinePushpin size={35} key={index} />
+                    <AiOutlinePushpin size={35}/>
                   </div>
                   <p>{e.message}</p>
                 </div>
