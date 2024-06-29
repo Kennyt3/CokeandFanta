@@ -10,7 +10,7 @@ import { STDCard } from './design'
 export default function PicGallery() {
   const photos = [
     {
-      src: '/engagement/coke1.jpg',
+      src: '/engagement/coke3.jpg',
       width: 500,
       height: 600,
     },
@@ -20,7 +20,7 @@ export default function PicGallery() {
       height: 700,
     },
     {
-      src: '/engagement/coke3.jpg',
+      src: '/engagement/coke1.jpg',
       width: 200,
       height: 300,
     },

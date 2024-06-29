@@ -1,11 +1,11 @@
 import { useAppContext } from '@/context/context'
+import { useState } from 'react'
 export default function SendMoney() {
-  const { setShowCash, setShowWish } = useAppContext()
+  const { setPage } = useAppContext()
   return (
     <button
       onClick={() => {
-        setShowCash(true)
-        setShowWish(false)
+        setPage('cash')
       }}
     >
       <span>Send Money</span>

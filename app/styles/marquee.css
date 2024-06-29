@@ -28,14 +28,21 @@
 }
 
 .rtl {
-  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 90%;
   flex-shrink: 0;
-  animation-name: bYfMUO;
-  animation-direction: reverse;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-duration: 38.2s;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .rtl > div {
