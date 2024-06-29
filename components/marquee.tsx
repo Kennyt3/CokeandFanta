@@ -31,8 +31,8 @@ export default function Marquee() {
               ))}
             </div>
             <div dir='rtl' className='rtl'>
-              {message.map((e) => (
-                <div className='marquee-box'>
+              {message.map((e, index) => (
+                <div className='marquee-box' key={index}>
                   <div>
                     <AiOutlinePushpin size={35} />
                   </div>
@@ -41,8 +41,8 @@ export default function Marquee() {
               ))}
             </div>
             <div dir='rtl' className='rtl'>
-              {message.map((e) => (
-                <div className='marquee-box'>
+              {message.map((e, index) => (
+                <div className='marquee-box' key={index}>
                   <div>
                     <AiOutlinePushpin size={35} />
                   </div>
