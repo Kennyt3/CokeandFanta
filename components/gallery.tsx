@@ -27,6 +27,11 @@ export default function PicGallery() {
       width: 2500,
       height: 3500,
     },
+    {
+      src: '/engagement/coke6.jpg',
+      width: 2500,
+      height: 3500,
+    },
   ]
   return (
     <div>
