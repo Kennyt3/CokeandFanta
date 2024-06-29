@@ -30,7 +30,7 @@ export default function Marquee() {
                 </div>
               ))}
             </div>
-            <div dir='rtl' className='rtl'>
+            <div className='rtl'>
               {message.map((e, index) => (
                 <div className='marquee-box' key={index}>
                   <div>
