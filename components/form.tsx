@@ -31,18 +31,14 @@ export default function Form() {
     let Last = lastName
     let Phone = telephone
 
-    const response = await fetch(
-      'https://script.google.com/macros/s/AKfycbxJjkzW9GTd-LEL6HADkesKu8WjJYYoop4Abj3x2PQ9N_BuyATJheVxxssV1_u8oHI_/exec',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ Name, Last, Email, Phone }),
-      }
-    )
+    const response = await fetch('api/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ Name, Last, Email, Phone }),
+    })
     const data = await response.json()
-    console.log(data)
     emailjs
       .send(
         'service_qgo4bdj',
