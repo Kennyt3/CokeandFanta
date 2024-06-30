@@ -43,6 +43,16 @@ export const wish: WishList[] = [
     link: 'https://www.jumia.com.ng/generic-rice-cooker-3l-36820710.html',
   },
   {
+    gift: 'Tower 5L Stainless Steel Stand Mixer - 1000W',
+    price: 'N120,000',
+    link: 'https://www.jumia.com.ng/tower-5l-stainless-steel-stand-mixer-1000w-80003263.html',
+  },
+  {
+    gift: 'Haier Thermocool 200 Litres Chest Freezer (HTF-200)',
+    price: 'N368,632',
+    link: 'https://www.jumia.com.ng/tower-5l-stainless-steel-stand-mixer-1000w-80003263.html',
+  },
+  {
     gift: 'Sweet Home Sweethome Kitchen Dish Washer',
     price: '499,999',
     link: 'https://www.jumia.com.ng/sweet-home-sweethome-kitchen-dish-washer-stand-alone-307099170.html',
