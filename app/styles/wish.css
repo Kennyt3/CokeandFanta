@@ -43,7 +43,7 @@
   --radix-scroll-area-corner-width: 0px;
   --radix-scroll-area-corner-height: 0px;
   @media only screen and (max-width: 37.5em) {
-    height: 80vh;
+    height: auto;
   }
 }
 
