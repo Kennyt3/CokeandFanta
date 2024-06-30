@@ -78,7 +78,7 @@ price: '45,000',
 link: 'https://www.jumia.com.ng/fashion-foldable-solid-portable-wardrobe-closet-87105767.html' 
 },
 {
-name: '3L Ultrasonic Air Purifier & Humidifier-(Blue)',
+gift: '3L Ultrasonic Air Purifier & Humidifier-(Blue)',
 price: '49,950',
 link: 'https://www.jumia.com.ng/generic-3l-ultrasonic-air-purifier-humidifier-blue-101770680.html'
 },
