@@ -26,6 +26,10 @@ export default function Form() {
   const handleSubmit = async (e: any) => {
     e.preventDefault()
     console.log(firstName, lastName)
+    let Name = firstName
+    let Email = email
+    let Last = lastName
+    let Phone = telephone
 
     const response = await fetch(
       'https://script.google.com/macros/s/AKfycby4mFkq4S0CibuNzNaImwR7cH85g3cVcMEWI35V4rDpsHOcMOu7jmU1FSR81OQ5cDRo/exec',
@@ -34,7 +38,7 @@ export default function Form() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ firstName, lastName, email, telephone }),
+        body: JSON.stringify({ Name, Last, Email, Phone }),
       }
     )
     const data = await response.json()
