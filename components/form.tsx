@@ -32,7 +32,7 @@ export default function Form() {
     let Phone = telephone
 
     const response = await fetch(
-      'https://script.google.com/macros/s/AKfycby4mFkq4S0CibuNzNaImwR7cH85g3cVcMEWI35V4rDpsHOcMOu7jmU1FSR81OQ5cDRo/exec',
+      'https://script.google.com/macros/s/AKfycbxJjkzW9GTd-LEL6HADkesKu8WjJYYoop4Abj3x2PQ9N_BuyATJheVxxssV1_u8oHI_/exec',
       {
         method: 'POST',
         headers: {
