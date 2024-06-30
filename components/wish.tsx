@@ -38,49 +38,49 @@ export const wish: WishList[] = [
     link: 'https://www.jumia.com.ng/generic-rice-cooker-3l-36820710.html',
   },
   {
-gift: “Sweet Home Sweethome Kitchen Dish Washer“,
-price: “499,999”,
-link: “https://www.jumia.com.ng/sweet-home-sweethome-kitchen-dish-washer-stand-alone-307099170.html” 
+gift: 'Sweet Home Sweethome Kitchen Dish Washer',
+price: '499,999',
+link: 'https://www.jumia.com.ng/sweet-home-sweethome-kitchen-dish-washer-stand-alone-307099170.html' 
 },
 {
-gift: “Homeflower 2.0 Channel High Power Tower Speaker System HF-2228“,
-price: “250,000”,
-link: “https://www.jumia.com.ng/2.0-channel-high-power-tower-speaker-system-hf-2228-homeflower-mpg1204583.html” 
+gift: 'Homeflower 2.0 Channel High Power Tower Speaker System HF-2228',
+price: '250,000',
+link: 'https://www.jumia.com.ng/2.0-channel-high-power-tower-speaker-system-hf-2228-homeflower-mpg1204583.html'
 },
 {
-gift: “Binatone 2 Slice Sandwich Maker (ST-801)“,
-price: “48,500”,
-link: “https://www.jumia.com.ng/binatone-2-slice-sandwich-maker-st-801-15772095.html” 
+gift: 'Binatone 2 Slice Sandwich Maker (ST-801)',
+price: '48,500',
+link: 'https://www.jumia.com.ng/binatone-2-slice-sandwich-maker-st-801-15772095.html'
 },
 {
-gift: “Tefal - Gran Perfectta Coffee Maker - 1.25L - CM442827“,
-price: “65,300”,
-link: “https://www.jumia.com.ng/tefal-gran-perfectta-coffee-maker-1.25l-cm442827-263199107.html” 
+gift: 'Tefal - Gran Perfectta Coffee Maker - 1.25L - CM442827',
+price: '65,300',
+link: 'https://www.jumia.com.ng/tefal-gran-perfectta-coffee-maker-1.25l-cm442827-263199107.html'
 },
 {
-gift: “Portable Handheld Vacuum Cleaner, High Power, Strong Suction“,
-price: “45,440”,
-link: “https://www.jumia.com.ng/generic-portable-handheld-vacuum-cleaner-high-power-strong-suction-257936066.html” 
+gift: 'Portable Handheld Vacuum Cleaner, High Power, Strong Suction',
+price: '45,440',
+link: 'https://www.jumia.com.ng/generic-portable-handheld-vacuum-cleaner-high-power-strong-suction-257936066.html'
 },
 {
-gift: “Sokany Electric Non-Stick Waffle Maker“,
-price: “28,399”,
-link: “https://www.jumia.com.ng/sokany-electric-non-stick-waffle-maker-132887493.html” 
+gift: 'Sokany Electric Non-Stick Waffle Maker',
+price: '28,399',
+link: 'https://www.jumia.com.ng/sokany-electric-non-stick-waffle-maker-132887493.html'
 },
 {
-gift: “Sumec Firman ECO10990ES Generator With Key Starter 7.0kva“,
-price: “1,155,650”,
-link: “https://www.jumia.com.ng/sumec-firman-eco10990es-generator-with-key-starter-7.0kva-36893255.html” 
+gift: 'Sumec Firman ECO10990ES Generator With Key Starter 7.0kva',
+price: '1,155,650',
+link: 'https://www.jumia.com.ng/sumec-firman-eco10990es-generator-with-key-starter-7.0kva-36893255.html' 
 },
 {
-gift: “Foldable Solid Portable Wardrobe Closet“,
-price: “45,000”,
-link: “https://www.jumia.com.ng/fashion-foldable-solid-portable-wardrobe-closet-87105767.html” 
+gift: 'Foldable Solid Portable Wardrobe Closet',
+price: '45,000',
+link: 'https://www.jumia.com.ng/fashion-foldable-solid-portable-wardrobe-closet-87105767.html' 
 },
 {
-name: “3L Ultrasonic Air Purifier & Humidifier-(Blue)“,
-price: “49,950”,
-link: “https://www.jumia.com.ng/generic-3l-ultrasonic-air-purifier-humidifier-blue-101770680.html” 
+name: '3L Ultrasonic Air Purifier & Humidifier-(Blue)',
+price: '49,950',
+link: 'https://www.jumia.com.ng/generic-3l-ultrasonic-air-purifier-humidifier-blue-101770680.html'
 },
 ]
 
