@@ -24,18 +24,18 @@ export default function PicGallery() {
     },
     {
       src: '/engagement/coke5.jpg',
-      width: 2500,
-      height: 3500,
+      width: 500,
+      height: 500,
     },
     {
       src: '/engagement/coke6.jpg',
-      width: 2500,
-      height: 3500,
+      width: 500,
+      height: 700,
     },
   ]
   return (
     <div>
-      <Gallery images={photos} rowHeight={700} />
+      <Gallery images={photos} rowHeight={400} />
       <div className='gallery-button'>
         <Link href='/photos' target='_blank'>
           <button className='gallery_button'>

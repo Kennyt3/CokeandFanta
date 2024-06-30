@@ -28,7 +28,7 @@ export default function Form() {
     console.log(firstName, lastName)
 
     const response = await fetch(
-      'https://script.google.com/macros/s/AKfycbzFY8eoQX-23zH-7yidUfJtzyWkOOtFEw6kqNhimKv7Bjmy0jv-oIgJt_6FHyz6cJyK/exec',
+      'https://script.google.com/macros/s/AKfycby4mFkq4S0CibuNzNaImwR7cH85g3cVcMEWI35V4rDpsHOcMOu7jmU1FSR81OQ5cDRo/exec',
       {
         method: 'POST',
         headers: {
@@ -39,21 +39,21 @@ export default function Form() {
     )
     const data = await response.json()
     console.log(data)
-    // emailjs
-    //   .send(
-    //     'service_qgo4bdj',
-    //     'wedding_form',
-    //     { firstName, lastName, email, telephone },
-    //     'cRQmou1HpEeCnEv5T'
-    //   )
-    //   .then(
-    //     (result: any) => {
-    //       console.log(result.text)
-    //     },
-    //     (error: any) => {
-    //       console.log(error.text)
-    //     }
-    //   )
+    emailjs
+      .send(
+        'service_qgo4bdj',
+        'wedding_form',
+        { firstName, lastName, email, telephone },
+        'cRQmou1HpEeCnEv5T'
+      )
+      .then(
+        (result: any) => {
+          console.log(result.text)
+        },
+        (error: any) => {
+          console.log(error.text)
+        }
+      )
     e.target.reset()
     setShowForm(false)
     setShowGift(true)
