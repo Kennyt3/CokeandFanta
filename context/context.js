@@ -22,6 +22,7 @@ const AppProvider = ({ children }) => {
   const [showMoreB, setShowMoreB] = useState(false)
   const [showMoreS, setShowMoreS] = useState(false)
   const [message, setMessage] = useState('')
+  const [price, setPrice] = useState('')
 
   const [page, setPage] = useState('none')
   return (
@@ -55,6 +56,8 @@ const AppProvider = ({ children }) => {
         setShowMoreS,
         message,
         setMessage,
+        price,
+        setPrice,
       }}
     >
       {children}

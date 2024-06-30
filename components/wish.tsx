@@ -118,7 +118,7 @@ export default function Wish() {
                     </div>
                     <div>
                       <div>
-                        <SendMoney />
+                        <SendMoney pricey={e.price} />
                       </div>
                       {e.link.length >= 1 && <GiftLink value={e.link} />}
                     </div>
