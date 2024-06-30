@@ -35,7 +35,7 @@ export default function PicGallery() {
   ]
   return (
     <div>
-      <Gallery images={photos} rowHeight={400} />
+      {/* <Gallery images={photos} rowHeight={400} /> */}
       <div className='gallery-button'>
         <Link href='/photos' target='_blank'>
           <button className='gallery_button'>

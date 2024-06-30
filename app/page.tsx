@@ -20,7 +20,6 @@ export default function Home() {
         <Story />
         <Marquee />
         <PicGallery />
-        <Marquee />
       </>
       {displayPage && <DisplayPage />}
     </main>
