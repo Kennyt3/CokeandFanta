@@ -13,6 +13,7 @@ export default function DisplayPage() {
     setDisplayPage,
     setPage,
     page,
+    setPrice,
     showMoreG,
     showMoreS,
     setShowMoreB,
@@ -29,6 +30,7 @@ export default function DisplayPage() {
             setShowMoreG(false)
             setShowMoreB(false)
             setShowMoreS(false)
+            setPrice(false)
             setPage('none')
           }}
         >

@@ -1,18 +1,15 @@
 import { DiVim } from 'react-icons/di'
+import { useAppContext } from '@/context/context'
 import CopyButton from './copyButton'
 
-interface Account {
-  name: string
-  details: string
-}
-export const account: Account[] = [
-  { name: 'Account Number', details: '0711336519' },
-  { name: 'Bank Name', details: 'Access Bank' },
-  { name: 'Currency', details: 'Naira' },
-  { name: 'Beneficiary Name', details: 'Omoyajowo Doyinsola' },
-]
-
 export default function Account() {
+  const { price } = useAppContext()
+  const account = [
+    { name: 'Account Number', details: '0711336519' },
+    { name: 'Bank Name', details: 'Access Bank' },
+    { name: 'Currency', details: 'Naira' },
+    { name: 'Beneficiary Name', details: 'Omoyajowo Doyinsola' },
+  ]
   return (
     <div className='accountBox'>
       <h3>Account Details</h3>
@@ -30,6 +27,17 @@ export default function Account() {
             </li>
           )
         })}
+        {price && (
+          <li>
+            <div>
+              <h5>Amount:</h5>
+            </div>
+            <div>
+              <p>{price}</p>
+              <CopyButton value={price} />
+            </div>
+          </li>
+        )}
       </ul>
     </div>
   )

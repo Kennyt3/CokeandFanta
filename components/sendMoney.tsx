@@ -1,6 +1,10 @@
 import { useAppContext } from '@/context/context'
 import { useState } from 'react'
-export default function SendMoney(pricey: any) {
+
+interface SendMoneyProps {
+  pricey: string
+}
+const SendMoney: React.FC<SendMoneyProps> = ({ pricey }) => {
   const { setPage, price, setPrice } = useAppContext()
   return (
     <button
@@ -13,3 +17,5 @@ export default function SendMoney(pricey: any) {
     </button>
   )
 }
+
+export default SendMoney
