@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Telcode from './telcode'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useAppContext } from '../context/context'
 import emailjs from '@emailjs/browser'
 import { STDCard } from './design'
 import * as XLSX from 'xlsx'
 // import { saveAs } from 'file-saver'
 export default function Form() {
+  const [clear, setClear] = useState(false)
   const {
     showForm,
     setShowForm,
@@ -25,12 +26,13 @@ export default function Form() {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault()
+
     console.log(firstName, lastName)
     let Name = firstName
     let Email = email
     let Last = lastName
     let Phone = telephone
-
+    setClear(true)
     const response = await fetch('api/submit', {
       method: 'POST',
       headers: {
@@ -54,12 +56,32 @@ export default function Form() {
           console.log(error.text)
         }
       )
+    emailjs
+      .send(
+        'service_6hro5uf',
+        'doyin_form',
+        { firstName, lastName, email, telephone },
+        'oJDi6VCsC3ODt00Ul'
+      )
+      .then(
+        (result: any) => {
+          console.log(result.text)
+        },
+        (error: any) => {
+          console.log(error.text)
+        }
+      )
     e.target.reset()
     setShowForm(false)
     setShowGift(true)
+    setClear(false)
+  }
+
+  const dont = (e: any) => {
+    e.preventDefault()
   }
   return (
-    <form action='' className='regForm' onSubmit={handleSubmit}>
+    <form action='' className='regForm' onSubmit={clear ? dont : handleSubmit}>
       <div className='regForm_Input'>
         <label htmlFor='firstName'>First Name</label>
         <div>

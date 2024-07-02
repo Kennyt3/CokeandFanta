@@ -8,6 +8,7 @@ import Story from '@/components/story'
 import { useAppContext } from '@/context/context'
 import Marquee from '@/components/marquee'
 import PicGallery from '@/components/gallery'
+import Copy from '@/components/copy'
 export default function Home() {
   const { displayPage, page } = useAppContext()
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Story />
         <Marquee />
         <PicGallery />
+        <Copy />
       </>
       {displayPage && <DisplayPage />}
     </main>
