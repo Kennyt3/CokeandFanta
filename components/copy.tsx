@@ -9,17 +9,18 @@ export default function Copy() {
       <footer className='copy'>
         Made
         <a
-          href='https://mercy-taiwo.vercel.app'
+          href='https://cokeandfanta.vercel.app'
           target='_blank'
           rel='noreferrer'
         >
-          <GiDiamondRing />
+          <GiDiamondRing size={30} style={{ color: '#ba9ed1' }} />
         </a>{' '}
         by
         <a
           href='https://mercy-taiwo.vercel.app'
           target='_blank'
           rel='noreferrer'
+          className='underline'
         >
           Kennycode
         </a>
