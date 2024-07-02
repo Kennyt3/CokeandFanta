@@ -24,6 +24,21 @@ export default function Photos() {
       width: 2500,
       height: 3500,
     },
+    // {
+    //   src: '/engagement/coke8.jpg',
+    //   width: 2500,
+    //   height: 3500,
+    // },
+    {
+      src: '/engagement/coke6.jpg',
+      width: 2500,
+      height: 3500,
+    },
+    {
+      src: '/engagement/coke7.jpg',
+      width: 2500,
+      height: 3500,
+    },
     {
       src: '/engagement/coke5.jpg',
       width: 2500,
