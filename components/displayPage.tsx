@@ -19,6 +19,8 @@ export default function DisplayPage() {
     setShowMoreB,
     setShowMoreG,
     setShowMoreS,
+    remain,
+    setRemain,
   } = useAppContext()
   return (
     <div className='open'>
@@ -26,12 +28,25 @@ export default function DisplayPage() {
         <button
           className='close'
           onClick={() => {
-            setDisplayPage(false)
+            {
+              !remain && setDisplayPage(false)
+            }
+            {
+              page === 'wishlist' && setDisplayPage(false)
+            }
+            {
+              page === 'wishlist' && setPage('none')
+            }
+            {
+              page === 'wishlist' && setRemain(false)
+            }
             setShowMoreG(false)
             setShowMoreB(false)
             setShowMoreS(false)
             setPrice(false)
-            setPage('none')
+            {
+              remain ? setPage('wishlist') : setPage('none')
+            }
           }}
         >
           <IoMdClose size={25} />
