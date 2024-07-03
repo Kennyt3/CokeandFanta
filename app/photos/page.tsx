@@ -67,7 +67,7 @@ export default function Photos() {
   ]
   return (
     <main>
-      <Gallery images={photos} margin={50} rowHeight={300} />
+      <Gallery images={photos} margin={40} rowHeight={300} />
     </main>
   )
 }
