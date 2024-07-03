@@ -33,7 +33,7 @@
   align-items: center;
   min-width: 90%;
   flex-shrink: 0;
-  animation: marquee 10s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 @keyframes marquee {
