@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { STDCard } from './design'
 import Form from './form'
 import Link from 'next/link'
-import BgImg from '@/public/engagement/coke4.jpg'
+import BgImg from '@/public/engagement/cokey.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 export default function Register() {

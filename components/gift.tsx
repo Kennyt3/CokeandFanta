@@ -2,10 +2,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { STDCard } from './design'
 import { useAppContext } from '@/context/context'
-import BgImg from '@/public/engagement/coke4.jpg'
+import BgImg from '@/public/engagement/cokey.jpg'
 import { WishList, Cash, BottomRight, TopLeft } from './design'
 export default function Gift() {
-  const { setShowCash, setShowWish } = useAppContext()
+  const { setShowGCash, setShowGWish } = useAppContext()
   return (
     <div className='bg-container form'>
       <div className='bg-image-container'>
@@ -24,7 +24,7 @@ export default function Gift() {
             </h3>
             <p className=''>Show love to this lovely couple</p>
             <div className='gift_card-container'>
-              <button className='gift_link' onClick={() => setShowCash(true)}>
+              <button className='gift_link' onClick={() => setShowGCash(true)}>
                 <div className='gift_card'>
                   <div className=''>
                     <Cash />
@@ -32,7 +32,7 @@ export default function Gift() {
                   <span>Send them Cash Gifts</span>
                 </div>
               </button>
-              <button className='gift_link' onClick={() => setShowWish(true)}>
+              <button className='gift_link' onClick={() => setShowGWish(true)}>
                 <div className='gift_card'>
                   <div className=''>
                     <WishList />

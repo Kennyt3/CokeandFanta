@@ -86,7 +86,6 @@
   margin-bottom: 0.5rem;
   margin-right: 1.2rem;
   padding: 16px 20px;
-  flex-wrap: wrap;
   @media only screen and (max-width: 37.5em) {
     flex-direction: column;
     justify-content: flex-start;
@@ -133,9 +132,10 @@
 .wish-item > div:last-child {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between; /*we wre coming here maybe center*/
   align-items: center;
   flex-basis: 40%;
+  width: 100%; /*If justify center then remove*/
   padding: 8px 8px 8px 0;
   white-space: nowrap;
   flex: 1;

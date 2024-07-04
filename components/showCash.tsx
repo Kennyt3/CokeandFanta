@@ -2,11 +2,17 @@ import { useAppContext } from '@/context/context'
 import { IoMdClose } from 'react-icons/io'
 import Account from './account'
 export default function ShowCash() {
-  const { setShowCash, setShowWish } = useAppContext()
+  const { setShowCash, setShowGCash, page } = useAppContext()
   return (
     <div className='open'>
       <div>
-        <button className='close' onClick={() => setShowCash(false)}>
+        <button
+          className='close'
+          onClick={() => {
+            page === 'none' && setShowGCash(false)
+            setShowCash(false)
+          }}
+        >
           <IoMdClose size={25} />
         </button>
         <Account />

@@ -11,13 +11,15 @@ export default function Gifty() {
     setShowForm(false)
     setShowGift(false)
   }, [])
-  const { showCash, showWish, showForm, setShowForm, showGift, setShowGift } =
+
+  const { showGCash, showGWish, showForm, setShowForm, showGift, setShowGift } =
     useAppContext()
+  console.log(showGCash, showGWish)
   return (
     <main>
       <Gift />
-      {showCash && <ShowCash />}
-      {showWish && <ShowWish />}
+      {showGCash && <ShowCash />}
+      {showGWish && <ShowWish />}
     </main>
   )
 }

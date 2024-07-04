@@ -24,6 +24,8 @@ const AppProvider = ({ children }) => {
   const [message, setMessage] = useState('')
   const [price, setPrice] = useState('')
   const [remain, setRemain] = useState(false)
+  const [showGCash, setShowGCash] = useState(false)
+  const [showGWish, setShowGWish] = useState(false)
 
   const [page, setPage] = useState('none')
   return (
@@ -61,6 +63,10 @@ const AppProvider = ({ children }) => {
         setPrice,
         remain,
         setRemain,
+        showGCash,
+        setShowGCash,
+        showGWish,
+        setShowGWish,
       }}
     >
       {children}
