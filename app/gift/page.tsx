@@ -10,11 +10,19 @@ export default function Gifty() {
   useEffect(() => {
     setShowForm(false)
     setShowGift(false)
+    setShowWish(false)
   }, [])
+  const {
+    showGCash,
+    showGWish,
+    showForm,
+    price,
+    setShowForm,
+    setShowWish,
+    showGift,
+    setShowGift,
+  } = useAppContext()
 
-  const { showGCash, showGWish, showForm, setShowForm, showGift, setShowGift } =
-    useAppContext()
-  console.log(showGCash, showGWish)
   return (
     <main>
       <Gift />

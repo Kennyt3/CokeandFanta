@@ -15,7 +15,6 @@
 
 .ReactGridGallery_tile-viewport {
   width: 100% !important;
-  /* height: fit-content !important; */
   @media only screen and (max-width: 37.5rem) {
     height: fit-content !important;
     object-fit: contain;
