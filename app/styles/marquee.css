@@ -53,8 +53,8 @@
 }
 
 .marquee-box {
-  height: 224px;
-  width: 284px;
+  height: 300px;
+  width: 300px;
   margin-left: 2rem;
   padding: 24px 16px;
   background-color: #fff;
@@ -85,5 +85,5 @@
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
