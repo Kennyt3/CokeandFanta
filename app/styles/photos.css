@@ -3,7 +3,7 @@
   padding: 0px !important;
   @media only screen and (max-width: 37.5rem) {
     margin: 20px auto !important;
-    padding: 0px !important;
+    padding: 0px 10px !important;
   }
 }
 .ReactGridGallery_tile-overlay,
@@ -15,6 +15,11 @@
 
 .ReactGridGallery_tile-viewport {
   width: 100% !important;
+  /* height: fit-content !important; */
+  @media only screen and (max-width: 37.5rem) {
+    height: fit-content !important;
+    object-fit: contain;
+  }
 }
 .ReactGridGallery_tile-viewport > img {
   margin-left: 0px !important;
