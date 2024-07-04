@@ -18,7 +18,7 @@ export default function Outline() {
     {
       title: 'Our Engagement',
       date: 'Sat Sep 14 2024',
-      time: '11:00 PM',
+      time: '11:00 AM',
       venue: '7, Aromire Street, Harmony Estate, Itoki, Ogun State.',
       delay: 200,
     },
