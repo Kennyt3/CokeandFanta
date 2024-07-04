@@ -11,10 +11,25 @@ import Marquee from '@/components/marquee'
 import PicGallery from '@/components/gallery'
 import Copy from '@/components/copy'
 export default function Home() {
-  const { displayPage, page, setShowGift, setShowWish } = useAppContext()
+  const {
+    displayPage,
+    page,
+    setShowGift,
+    setShowWish,
+    setShowForm,
+    setMessage,
+    setShowMoreB,
+    setShowMoreS,
+    setShowMoreG,
+  } = useAppContext()
   useEffect(() => {
     setShowWish(false)
     setShowGift(false)
+    setShowForm(false)
+    setShowMoreB(false)
+    setShowMoreS(false)
+    setShowMoreG(false)
+    setMessage('')
   }, [])
   return (
     <main className='relative'>

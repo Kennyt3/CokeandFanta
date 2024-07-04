@@ -26,6 +26,7 @@ export default function Message() {
       )
     e.target.reset()
     setMessage('')
+    setName('')
   }
   return (
     <div className='message'>
