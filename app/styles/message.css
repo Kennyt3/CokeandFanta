@@ -29,10 +29,14 @@
   margin-bottom: 40px;
 }
 
-.message > div > h1 {
+.message > div > h3 {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+  @media only screen and (max-width: 37.5em) {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 .message > form > div {
@@ -47,7 +51,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  padding: 0.8rem 3rem 0.8rem 1.5rem;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
   border: 1px solid #f2f2f2;
   background-color: #fafafa;
   width: 100%;
@@ -62,6 +66,28 @@
   align-items: center;
   user-select: text;
   resize: none;
+}
+
+.message > form > div > div {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.message > form > div > div > input {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0.5rem 3rem 0.5rem 1.5rem;
+  border: 1px solid #f2f2f2;
+  background-color: #fafafa;
+  max-width: 400px;
+  user-select: text;
+  resize: none;
+  @media only screen and (max-width: 37.5em) {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    max-width: 250px;
+  }
 }
 
 .message > form > div > p {

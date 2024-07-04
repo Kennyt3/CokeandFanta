@@ -13,6 +13,7 @@ const AppProvider = ({ children }) => {
   const [showGift, setShowGift] = useState(false)
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
+  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [telephone, setTelephone] = useState('')
   const [showCash, setShowCash] = useState(false)
@@ -39,6 +40,8 @@ const AppProvider = ({ children }) => {
         setFirstName,
         lastName,
         setLastName,
+        name,
+        setName,
         email,
         setEmail,
         telephone,

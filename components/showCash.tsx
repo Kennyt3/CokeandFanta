@@ -6,7 +6,6 @@ export default function ShowCash() {
   const { setShowCash, setShowGCash, setShowGWish, page, price } =
     useAppContext()
   const pathname = usePathname()
-  console.log(pathname)
   return (
     <div className='open'>
       <div>
