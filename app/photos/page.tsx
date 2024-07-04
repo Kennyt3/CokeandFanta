@@ -49,16 +49,16 @@ export default function Photos() {
       width: 200,
       height: 200,
     },
-    {
-      src: '/engagement/coke10.jpg',
-      width: 200,
-      height: 200,
-    },
-    {
-      src: '/engagement/coke11.jpg',
-      width: 200,
-      height: 200,
-    },
+    // {
+    //   src: '/engagement/coke10.jpg',
+    //   width: 200,
+    //   height: 200,
+    // },
+    // {
+    //   src: '/engagement/coke11.jpg',
+    //   width: 200,
+    //   height: 200,
+    // },
     {
       src: '/engagement/coke12.jpg',
       width: 200,
