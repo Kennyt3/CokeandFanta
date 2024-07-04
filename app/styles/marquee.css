@@ -5,8 +5,6 @@
   align-items: center;
   padding: 3rem 0;
   gap: 2rem;
-  /* background: #fffbf2;
-  background: #e8dff0; */
   background: #eee8f3;
 }
 
@@ -31,7 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 90%;
+  min-width: 80%;
   flex-shrink: 0;
   animation: marquee 30s linear infinite;
 }

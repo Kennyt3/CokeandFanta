@@ -25,11 +25,29 @@ export default function Marquee() {
       message:
         'Congratulations on your wedding! 🎊 Wishing you a lifetime of love and happiness. 💕',
     },
+  ]
+
+  const message2 = [
     {
       message:
         'I’m so happy to witness the beginning of this beautiful journey with Doyinsola and Emmanuel, you both a perfect pea in a pod🥰 Thank you for making Love beautiful and inspiring…. Congratulations 🍾',
     },
-    { message: 'congrats 🎉' },
+    {
+      message:
+        'Congratulations my school and the nurse that will take care of my school father😂😂😂❤️❤️❤️❤️😂😂😂',
+    },
+    {
+      message:
+        'Love you guys so much! Emmy T handover the baton that day❤️😂😂',
+    },
+    {
+      message:
+        "Congratulations my people. Doyinsola & Emmanuel.💍👩‍❤️‍👨 I'm so happy for you both, and I pray you enjoy a lifetime of happiness, peace and joy that comes with being with the one you love❤️",
+    },
+    {
+      message:
+        'Congratulations Doyin and Emmanuel. I’m super glad that I’ll be witnessing the beginning of this beautiful journey. I pray God bless your home and help you both achieve all your heart desires. Love you both so much❤️',
+    },
   ]
   return (
     <div>
@@ -37,17 +55,7 @@ export default function Marquee() {
         <div>
           <div className='marquee'>
             <div dir='rtl' className='rtl'>
-              {message.map((e, index) => (
-                <div className='marquee-box' key={index}>
-                  <div>
-                    <AiOutlinePushpin size={35} />
-                  </div>
-                  <p>{e.message}</p>
-                </div>
-              ))}
-            </div>
-            <div className='rtl'>
-              {message.map((e, index) => (
+              {message2.map((e, index) => (
                 <div className='marquee-box' key={index}>
                   <div>
                     <AiOutlinePushpin size={35} />
@@ -58,6 +66,16 @@ export default function Marquee() {
             </div>
             <div dir='rtl' className='rtl'>
               {message.map((e, index) => (
+                <div className='marquee-box' key={index}>
+                  <div>
+                    <AiOutlinePushpin size={35} />
+                  </div>
+                  <p>{e.message}</p>
+                </div>
+              ))}
+            </div>
+            <div dir='rtl' className='rtl'>
+              {message2.map((e, index) => (
                 <div className='marquee-box' key={index}>
                   <div>
                     <AiOutlinePushpin size={35} />
