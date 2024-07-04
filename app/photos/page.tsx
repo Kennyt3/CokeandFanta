@@ -51,12 +51,12 @@ export default function Photos() {
       height: 200,
     },
     {
-      src: '/engagement/coke10.jpg',
+      src: '/engagement/coke10.jpeg',
       width: 200,
       height: 200,
     },
     {
-      src: '/engagement/coke11.jpg',
+      src: '/engagement/coke11.jpeg',
       width: 200,
       height: 200,
     },
