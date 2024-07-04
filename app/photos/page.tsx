@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import { Gallery } from 'react-grid-gallery'
+import Link from 'next/link'
 export default function Photos() {
   const photos = [
     {
@@ -68,6 +69,13 @@ export default function Photos() {
   return (
     <main>
       <Gallery images={photos} margin={40} rowHeight={300} />
+      <div className='gallery-button my-[40px]'>
+        <Link href='/' target='_blank'>
+          <button className='gallery_button'>
+            <span>Back to website</span>
+          </button>
+        </Link>
+      </div>
     </main>
   )
 }

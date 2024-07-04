@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import AppProvider from '@/context/context'
 import '../styles/reset.css'
 import '../styles/photos.css'
+import '../styles/gallery.css'
 
 export default function RootLayout({
   children,
